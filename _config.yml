@@ -11,3 +11,4 @@ rss: "http://wtwf.com/scripts/atom.xml"
 
 # Build settings
 markdown: kramdown
+permalink: /:year/:month/:title.html
