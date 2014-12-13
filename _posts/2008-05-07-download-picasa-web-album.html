@@ -1,0 +1,13 @@
+---
+layout: post
+title: Download Picasa Web Album
+date: 2008-05-07
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I recently needed to download some friend's Picasa Web Albums and did a quick search and didn't find anything readable or that worked. I had planned to use the fancy pants gData API but then saw that the solutions I found just used the RSS feed that each album has, this was <span style="font-weight: bold;">much</span> simpler to use.<br /><br />download: <a href="http://wtwf.com/scripts/bin/downloadpicasawebalbum">downloadpicasawebalbum</a><br /><br />Sadly you'll need <a href="http://effbot.org/zone/element-index.htm">ElementTree</a> which is kinda easy to install, but still a pain, it's easy XML parsing though so it's what I use (even if it does screw everything up when you output stuff with namespaces in it).<br /><br />Here's my use case. We all go to some event, friends start posting their album links, I download all the pictures, add it to iPhoto and then rate and upload my own album of pictures I like that I can then reference from my blogs etc. This way I don't have to worry about people removing pictures and me losing them (from my posts and just losing them in general).<br /><br />This was the quickest piece of code I've knocked together and put on this site, took less than 2 hours.</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

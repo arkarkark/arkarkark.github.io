@@ -1,0 +1,13 @@
+---
+layout: post
+title: Debugging Javascript
+date: 2005-04-14
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+So you're used to using alert to debug your javascript. STOP IT! it's<br />totally lame<br /><br />Rather than use alert, try a dump instead<br /><br /><code>dump("Hello World\n");</code><br /><br />will print "Hello World" to the console that firefox/mozilla was<br />launched from (who cares what IE does)<br /><br />you should set the mozilla config variable (use about:config)<br /><code>javascript.options.showInConsole</code> to true<br />and add a new boolean config variable (also set to true)<br /><code>browser.dom.window.dump.enabled</code><br /><br />see:<br /><a href="http://kb.mozillazine.org/Dev_:_Javascript_variables">http://kb.mozillazine.org/Dev_:_Javascript_variables</a><br /><br />This really helps in loops and the like when you'd have to close a gazillion alert popups.<br /><br />-- or --<br /><br />if you're a <a href="http://greasemonkey.mozdev.org/">greasemonkey</a> user you can use GM_log(message, level) which pops up in the javascript console (along with all your javascript errros) which is really nice<br /><br />-- or --<br /><br />just put a little bit of HTML in your page as you debug like this...<br /><br />&lt;form&gt;&lt;textarea style="width: 100%;" rows="25" id="'debug'"&gt;&lt;/textarea&gt;&lt;/form&gt;<br /><br />and add this to your javascript...<br /><pre><br />/** updates a textarea if there is one - much better than alert */<br />function debug(msg) {<br /> var ta = document.getElementById('debug');<br /> if (ta) {<br />   ta.value = msg +"\n" + ta.value;<br /> }<br />}<br /></pre></div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: fixlinks
+date: 2007-08-20
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I've <a href="http://wtwf.com/scripts/2005/03/modifying-way-links-work-in-page.php">written about this before</a> but I have some javascript that you can include on a page an it will go and modify all the links so that if they are off-site links they'll open in a new window (or tab if you have your browser configured right). It also hides your links behind a referrer stripping redirector. I used to use google's redirector but they shut it down so now I use the excellent <a href="http://hidebehind.com/url-redirector.php">redirector from hidebehind.com</a>.<br /><br />Here's <a href="http://wtwf.com/scripts/bin/fixlinks.txt">fixlinks.js</a>. I saved it as .txt to try and avoid people using it from my site on their own site. Please copy this to your own server to use it.<br /><br />It adds an onload handler (and preserves any that are already there) and it also modifies every link to have an onclick handler, it also preserves exisiting onclick handlers.</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

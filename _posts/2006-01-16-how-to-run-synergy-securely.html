@@ -1,0 +1,13 @@
+---
+layout: post
+title: How to run synergy securely
+date: 2006-01-16
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I run <a href="http://synergy2.sf.net/">Synergy</a> to connect my linux desktop to my PowerBook. This allows you to share one keyboard/mouse with another machine. When your pointer moves to the edge of the screen its control moves over to the other machine, your keyboard gets sent to whatever machine the pointer is on. It's AWESOME.<br /><br />Out the box your passwords if you type them are sent in plaintext, this is unacceptable.<br /><br />My keyboard it connected to my linux machine which is where I run the synergy server.<br /><br />on my Linux machine (the server) I start synergy with this (I have it mapped to a menu item in my window manager).<br /><pre>  killall synergys;<br /> synergys -a localhost:24777 --config $HOME/lib/X/synergy/synergy.conf &</pre>synergy.conf looks like this<br /><pre><br /> section: screens<br />          ark.corp.com:<br />          laptop:<br /> end<br /> section: links<br />        ark.corp.com:<br />            left = laptop<br />        laptop:<br />            right = ark.corp.com<br /> end</pre>Now on my mac I do this (I have it in a shell script called synergy)...<br /><pre>  killall synergyc<br /> ssh -x -q -N -L24777:localhost:24777 ark.corp.com &amp;<br /> sleep 3;<br /> /usr/local/synergy/synergyc -n laptop localhost:24777 &amp;</pre>Now all synergy communication is on the linux server and the laptop just talks to a local port which is an SSH secure tunnel to the linux machine. Works great!<br /><br />I haven't quite got this to work between two mac machines yet...</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

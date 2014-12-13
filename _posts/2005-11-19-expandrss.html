@@ -1,0 +1,13 @@
+---
+layout: post
+title: expandRss
+date: 2005-11-19
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+Since I discovered the joy that is <a href="http://blogger.com/">blogs</a>, rss and of course <a href="http://reader.google.com/">Google Reader</a> I've found one or two feeds that don't quite provide the data I want. Usually they just provide a small summary and a link to the full story, or some crucial part of the post is missing. It started off with <a href="http://woot.com/">woot.com</a>'s feed which shows you the woot but not the price (what's the point in that?) so I wrote a small python script that fetched the feed and the price and updated the feed. Then it was <a href="http://b3ta.com/">b3ta.com</a>'s newsletter that had one article per newsletter without the contents of the newsletter, so I changed my script to get that too, and even make a whole bunch of articles with the link be the url that each little snippet points to. Then came <a href="http://snopes.com/">snopes.com</a> which was kinda generic, it used to point to a page with the content, so I made it scrape that content and replace the description with the scraped content.<br /><br />So now I share my script here, hopefull that it'll be useful to someone. I'm not publishing my feeds since my goal isn't to upset the feed publishers/sites. If you make changes or find it useful please let me know.<br /><br /><a target="_blank" href="http://wtwf.googlecode.com/svn/trunk/feeds/expandrss.py">expandRss</a></div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

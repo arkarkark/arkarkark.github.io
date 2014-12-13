@@ -1,0 +1,13 @@
+---
+layout: post
+title: Find which of your friends like something on Facebook
+date: 2012-10-04
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+Facebook has a url that will allow you to see which of your friends have liked a particular page. This was floating around a while ago so you could see who liked Nickleback (and obviously unfriend them, I'm still looking at your Louis!).<br /><br />Today I worked out how to do that for any page, especially pages that have their own vanity url.<br /><br />Take a page on&nbsp;Facebook&nbsp;you want to know who else likes it and then right click and view source.<br /><br />You're looking for stuff in the HTML that looks like this:<br /><br /><br /><span style="font-family: Courier New, Courier, monospace;">"""&amp;amp;set=a.488629199958.62769.<b>6885814958</b>&amp;amp;type=1"""</span><br /><span style="font-family: Courier New, Courier, monospace;"><br /></span><span style="font-family: Courier New, Courier, monospace;">"""music.php?musician_fbpage_id=<b>6885814958</b>"""</span><br /><div><br /></div><div>So search around for <b>page_id</b> or <b>set=a. </b>then take the digits at the end and add them to this url</div><div><span style="font-family: Courier New, Courier, monospace;">https://www.facebook.com/browse/friended_fans_of/?page_id=</span></div><br /><br />Try that in your browser and see if it works or not.<br /><br />Here's some to play around with:<br /><br />Mitt Romney: <a href="https://www.facebook.com/mittromney" target="_blank">Page</a>&nbsp;-&nbsp;<a href="https://www.facebook.com/browse/friended_fans_of/?page_id=21392801120">Friend Likes</a><br />Lil Wayne: <a href="https://www.facebook.com/LilWayne" target="_blank">Page</a>&nbsp;-&nbsp;<a href="https://www.facebook.com/browse/friended_fans_of/?page_id=6885814958" target="_blank">Friend Likes</a><br />Barack Obama: <a href="https://www.facebook.com/barackobama" target="_blank">Page</a> -&nbsp;<a href="https://www.facebook.com/browse/friended_fans_of/?page_id=6815841748%EF%BB%BF" target="_blank">Friend Likes</a><br /><br />Downton Abbey:&nbsp;<a href="https://www.facebook.com/DowntonAbbey" target="_blank">Page</a>&nbsp;-&nbsp;<a href="https://www.facebook.com/browse/friended_fans_of/?page_id=148714591835821%EF%BB%BF" target="_blank">Friend Likes</a><br /><br />Nickelback:&nbsp;<a href="https://www.facebook.com/Nickelback" target="_blank">Page</a>&nbsp;-&nbsp;<a href="https://www.facebook.com/browse/friended_fans_of/?page_id=6248267085" target="_blank">Friend Likes</a><br /><br /></div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

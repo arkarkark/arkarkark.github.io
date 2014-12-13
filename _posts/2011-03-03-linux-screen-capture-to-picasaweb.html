@@ -1,0 +1,13 @@
+---
+layout: post
+title: linux screen capture to picasaweb
+date: 2011-03-03
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+on my mac I use <a href="https://skitch.com/">skitch</a>, it's awesome. on my Linux desktop I use something more ghetto but it's been working well for me.<br /><br />with your picasaweb account click on settings. It should take you to the <a href="https://picasaweb.google.com/lh/settings#">picasaweb settings page</a>. if you haven't yet, type in a secret word and note the email address. When you email things to this address they'll end up in your 'Drop Box' album. It'll make one if you don't have one. You can get fancy by using a subject and it'll make an album with the subject I think.<br /><br />then you just need a line like this in your window manager menu file. I use fluxbox, your syntax might be different<br /><br />&nbsp;&nbsp;[exec] (Screen Cap to Picasa) {O=/tmp/cap-$(date +%F-%R).png; /usr/bin/import $O; echo | /usr/bin/mutt -a $O -- picasawebusername.secretword@picasaweb.com; /bin/rm $O } &lt;&gt;<br /><br />tah dah, a nice menu that allows you to grab some screen and then upload it to picasaweb in one go. You'll need to install imagemagick and mutt of course.</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

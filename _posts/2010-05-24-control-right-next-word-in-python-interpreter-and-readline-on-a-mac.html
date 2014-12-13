@@ -1,0 +1,13 @@
+---
+layout: post
+title: control-right next-word in python interpreter and readline on a mac
+date: 2010-05-24
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+It's bothered me for a long time that the python interpreter ignores my .inputrc and prints&nbsp;;5D;5C when I do control-left and control-right on my mac (both OSX 10.5 Leopard and 10.6 Snow Leopard). It works fine everywhere else and I finally found the simple solution:<br /><br /><br />sudo easy_install readline<br /><br />You'll also need the following lines in ~/.inputrc but you likely have those anwyay.<br /><br /><div><br /></div><div><div>"\e[1;5D": backward-word</div><div>"\e[1;5C": forward-word</div></div><div><br /></div><div>my .inputrc has a bunch of junk in it that I can't even remember why it was added here are some other gems from it:</div><div><br /></div><div><div>set completion-ignore-case on</div><div>set bell-style visible</div><div>set mark-symlinked-directories on</div><div>set bind-tty-special-chars off</div><div><br /></div></div></div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

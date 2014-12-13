@@ -1,0 +1,18 @@
+---
+layout: post
+title: picasaweb album size and density
+date: 2008-02-24
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I was getting pretty close to my 1 gig limit in my picasaweb album and I'm too stingy to buy more storage from Google. So I needed to work out which albums to trim down or remove. When I started using picasaweb I would upload the highest quality pictures and later on I went for fastest upload (lower quality/filesize) so I knew I couldn't count on the number of pictures in the album alone. Picasaweb does show you the size of the album, but only on each album's page so that would take a long time to work out. So I fired up the <a href="http://code.google.com/apis/picasaweb/gdata.html">picasaweb gdata api</a> and got some data, it was super easy to do. I used my <a href="http://wtwf.com/scripts/2007/07/public-google-bookmarks-feeds.php">bookmarks.py</a> script to do the authentication (which I still don't really understand) and then got the XML for all my albums. Then I collected data and sorted them and displayed them in worst offender order.<br /><br />The only really niggly point was that the XML used namespaces and I was using ElementTree to parse the XML and findall required some weird arguments to find the elements. A Bit of trial and error and skimming the <a href="http://effbot.org/zone/pythondoc-elementtree-ElementTree.htm">ElementTree docs</a> I found the solution to that problem. Then I polished up my turd and here it is:<br /><br /><a href="/scripts/bin/albumsize.py">albumsize.py</a><br /><br />You can run it with just an picasaweb username (with --user) and it will show you all the public albums. provide a google account address (with --email) and it will prompt you for a password and log in and show you all albums.<br /><br />It will then print out your albums in worst to least offenders<br />Each line lists the following data:<ul><li>album name</li><li>pics: the number of pictures</li><li>size: the size of the album (possibly in KB?)</li><li>density: how many pictures per MB</li><li>size#: position of this album in the albums if they were ordered by size</li><li>density#: position of this album in the albums if they were ordered by density</li><li>target: sum of size and density (results are ordered on this column)</li></ul>When I was first writing this I thought I could turn this into a nice web service for y'all. I could make my script really simple and have it return the data via JSON and then process it in a nice HTML table that you could sort the columns on. I could even make links to the albums (including auth keys). But then why not just send the XML back and just make my script a proxy for fetching picasaweb api XML. And then I'd have to parse the XML in JavaScript and I kinda already had everything  wanted (in lovely Python)  so I kinda gave up on that idea as not interesting enough.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Andres</div>
+<div class='content'>
+I just ran into that problem myself! Thanks for the script!<br /><br />Python 2.6.2 doesn&#39;t like You used &quot;as&quot; as the identifier at the end of the script.<br /><br />Anyway, thanks for sharing! It saved me quite a bit of effort!</div>
+</div>
+</div>

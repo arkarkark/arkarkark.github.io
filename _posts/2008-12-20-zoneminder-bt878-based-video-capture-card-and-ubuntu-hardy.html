@@ -1,0 +1,13 @@
+---
+layout: post
+title: zoneminder, bt878 based video capture card and ubuntu hardy
+date: 2008-12-20
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I use <a href="http://www.zoneminder.com/">zoneminder</a> for my security cameras and with the new server (and new OS) I had to set up zoneminder again. I have a bt878 based card which worked great in the old setup.<br /><br />Here's some tips to get things going:<br /><pre class="code">xawtv -hwscan</pre>Should be able to find your hardware, if not you're not going anywhere.<br /><pre class="code">xawtv -device /dev/video0</pre>or whatever hwscan told you, should show images, if not you need to look into that.<br /><br />Once you have that all working the secret sauce is to add the user that runs your apache cgi scripts to the video group, so they can access /dev/video0<br /><pre class="code">usermod  -a -G video www-data</pre>now zoneminder should show your cameras.<br /><br />My cameras are 320x240 NTSC<br /><br />Other useful stuff:<br /><pre class="code">lsmod | fgrep bt<br /><br />bt878                  11992  0<br />bttv                  176180  2 bt878<br />ir_common              36100  1 bttv<br />compat_ioctl32          2304  1 bttv<br />i2c_algo_bit            7300  1 bttv<br />videobuf_dma_sg        15108  1 bttv<br />videobuf_core          18820  2 bttv,videobuf_dma_sg<br />btcx_risc               5896  1 bttv<br />tveeprom               16528  1 bttv<br />i2c_core               24832  4 bttv,i2c_algo_bit,i2c_piix4,tveeprom<br />videodev               29312  2 bttv<br />v4l2_common            18304  2 bttv,videodev<br />v4l1_compat            15492  2 bttv,videodev<br /></pre>My card was $20 from <a href="http://geeks.com/">geeks.com</a>, It has 4 inputs and I'm really happy with it.</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: getrequestargs in javascript
+date: 2007-08-07
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+Here's how to parse the query string (from a method="GET" form) in javascript, returns an object/map<br /><br />Doesn't handle multiple values (e.g. form?foo=yes&foo=no)<br /><br />I'm pissed that "hello".replace("l", "w") == "hewlo"<br />Also pissed that decode("hello+world") != "hello world"<br /><br /><pre><br />function getrequestargs(url) {<br />  var args = new Object();<br />  url = String(url);<br />  var idx = url.indexOf("?");<br />  if (idx &gt;= 0) {<br />    var s = url.substring(idx + 1);<br />    var pairs = s.split("&");<br />    for (var i = 0; i &lt; pairs.length; i++) {<br />      var idx = pairs[i].indexOf("=");<br />      if (idx > 0) {<br />        pairs[i] = pairs[i].replace(/\+/g, " ");<br />        var key = decodeURI(pairs[i].substring(0, idx));<br />        var value = decodeURI(pairs[i].substring(idx + 1));<br />        args[key] = value;<br />      }<br />    }<br />  }<br />  return args;<br />}<br /><br />var args = getrequestargs(location);<br /></pre></div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

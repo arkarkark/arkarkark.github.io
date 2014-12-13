@@ -1,0 +1,13 @@
+---
+layout: post
+title: Fix Blogger Post Greasemonkey Script
+date: 2007-06-25
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+Over in my baby blog I've been posting a lot of images and text. Using blogger's include image option is really annoying so what I do is just drag images from picasaweb over into the compose window in blogger, it works great. However I have to do some slight adjustments to make the images how I want them. I want them left aligned with text flowing around them. I also want the text with each image to stay with that image. This involves adding stuff to the style attribute for my img elements and also wrapping each img with a div tag. I <i>could</i> do all this with the style sheets on my page but I also have my blog posts mailed out to a notify list and if I do it with style sheets the emails will look like ass. Previously I was doing this by keeping the snippets of HTML I needed to add in a <a href="http://www.google.com/notebook">Google Notebook</a> and just copying them over when I needed to, it worked kinda o.k.<br /><br />So I wrote a <a href="http://www.greasespot.net/">greasemonkey</a> script to give me a new button at the bottom of the posting page that will fix the style of the current post. It adds the styles and divs I want and can also do other stuff. At some point I'm going to make it replace teh with the and wont with won't.<br /><br />I borrowed some code from <a href="http://userscripts.org/scripts/review/7109">userscripts</a> which gave me a new button at the bottom and then wrote the rest myself. It's not pretty but it works.<br /><br /><a href="http://wtwf.com/scripts/bin/fixbloggerposts.user.js">fixbloggerposts.user.js</a></div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

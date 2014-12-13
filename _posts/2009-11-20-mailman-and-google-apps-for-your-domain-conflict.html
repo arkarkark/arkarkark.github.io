@@ -1,0 +1,13 @@
+---
+layout: post
+title: Mailman and Google Apps For Your Domain conflict
+date: 2009-11-20
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+<div>the recent addition of x-beenthere mail headers for Google Apps For Your Domain (gafyd) &nbsp;groups stopped my mailman setup working. I thought I'd share it here in case anyone else is asking about it.<br /></div><div><br /></div>I have mailman running on <a href="http://server.example.com/" target="_blank">server.example.com</a><br /><div>I have <a href="http://example.com/" target="_blank">example.com</a> set up as google apps for your domain with gmail<br /></div><div><br /></div><div>I have a 'group' created to send mail from <a href="mailto:list@example.com" target="_blank">list@example.com</a> to <a href="mailto:list@server.example.com" target="_blank">list@server.example.com</a><br /></div><div><br /></div><div>on my server I had <a href="mailto:list@server.example.com" target="_blank">list@server.example.com</a> run the mailman binary with post to list whose email address is listed as <a href="mailto:list@exmaple.com" target="_blank">list@exmaple.com</a><br /></div><div><br /></div><div>this was working perfectly however since Sep 17th 2009 gafyd is inserting x-beenthere: <a href="mailto:list@example.com" target="_blank">list@example.com</a> which /var/lib/mailman/<wbr></wbr>Mailman/Handlers/Approve.py detects as a loop and mailman mysteriously drops the message with a log in <br /></div><div>/var/lib/mailman/logs/vette " (3902) Message discarded, msgid: ...."<br /></div><div><br /></div><div>the solution to me was to move the list to a non gafyd domain :(<br /></div><div><br /></div></div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

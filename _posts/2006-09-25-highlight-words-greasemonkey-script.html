@@ -1,0 +1,43 @@
+---
+layout: post
+title: Highlight words greasemonkey script
+date: 2006-09-25
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I wrote this short <a href="http://greasemonkey.mozdev.org/">greasemonkey</a> script to highlight particular words on a web page. You can choose what color they are highlighted in (or anything about their style). I find it useful I hope you do too...<br /><br /><a href="http://wtwf.com/scripts/bin/highlightwords.user.js">highlightwords.user.js</a><br /><br />I've also wanted to have a <a href="http://www.mozilla.org/docs/end-user/keywords.html">Mozilla keyword</a> that opens multiple websites and I finally set it up. It's easy to do, just make a new bookmark with a keyword and have the URL be something like:<br /><div class="code"><br />javascript:window.open('http://wtwf.com/scripts/');window.open('http://www.fark.com/');window.open('http://slashdot.org/');<br /></div><br />You can make that as long as you like and it'll just work. You might need to be using <a href="https://addons.mozilla.org/firefox/1122/">Tab Mix Plus</a> to make sure that unresized popups end up in a new tab rather than a new window, but you should be using that anyway.<br /><br />In case you didn't know you can do this a lot easier from the command line (or a window manager menu or some such like this:<br /><div class="code"><br />firefox http://wtwf.com/scripts/|http://www.fark.com/|http://slashdot.org/<br /></div></div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Sam C</div>
+<div class='content'>
+Hi, I&#39;m trying to make this work with multiple words. Is that possible?</div>
+</div>
+<div class='comment'>
+<div class='author'>Mark Wickens</div>
+<div class='content'>
+Thanks very much for this! It is going to make my life much easier!</div>
+</div>
+<div class='comment'>
+<div class='author'>ark</div>
+<div class='content'>
+Erik, sorry for the late reply. you should just be able to replace &#39;garlic&#39; with the word you want highlighted, but you&#39;ll also need to edit the pages this script runs on to make it run on the site you want the words highlighted on, I bet that&#39;s what was missing.</div>
+</div>
+<div class='comment'>
+<div class='author'>Erik</div>
+<div class='content'>
+I was looking for that script :)<br />Only problem i do not know how to add words.<br />I tried some little but nothing became red.<br /><br />Could you explain a bit how it works?</div>
+</div>
+<div class='comment'>
+<div class='author'>ark</div>
+<div class='content'>
+Hi Joe,<BR/><BR/>Glad you found the script! highlighting just the word is a little more complex, you'll need to split the current object into 2, before the word and after it, then add in the before, add a new highlighted span for the word and then add in the after.<BR/><BR/>That's more work than I'm willing to get into right now and I have no idea how it'd work out if your word was in a link or some such.<BR/><BR/>If you do get it worked out, let me know I'll gladly update the script here.</div>
+</div>
+<div class='comment'>
+<div class='author'>Joe</div>
+<div class='content'>
+Hi, <BR/><BR/>This script is exactly what I am looking for.  Unfortunately, I do not know how to modify it to only highlight a single word as opposed to the whole paragraph.  Do you have a version that only hightlights the word or could you post the code to do so?  <BR/><BR/>Many thanks!!  Joe</div>
+</div>
+</div>

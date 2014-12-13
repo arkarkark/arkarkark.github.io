@@ -1,0 +1,13 @@
+---
+layout: post
+title: modifying the way links work in page
+date: 2005-03-23
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+This post is now out of date: please go read about the new '<a href="http://wtwf.com/scripts/2007/08/fixlinks.php">fixlinks.js</a>'.<br /><br /><hr><br /><br /><br />So I really dislike adding target="_blank" to all my links that go offsite or adding &lt;base target="blank"&gt; and to remembering unset for links that stay on site.<br /><br />So I added little bit javascript top of my template I call an onload<br />body tag that modifies all the &lt;a href&gt; tags on the page. It<br />runs with following logic. If the link is different anonymize using google url<br />redirector and open a new tab if it's the same host replace this window. At<br />some point I'll fix it to honor target="_blank" attribute in the &lt;a href&gt;<br />if there is one.</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

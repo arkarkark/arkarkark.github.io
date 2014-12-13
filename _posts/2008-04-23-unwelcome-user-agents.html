@@ -1,0 +1,13 @@
+---
+layout: post
+title: unwelcome user agents
+date: 2008-04-23
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+The following useragents are not welcome on my website:<pre class="code"><br />SetEnvIfNoCase User-Agent "^Biz360" bad_bot<br />SetEnvIfNoCase User-Agent "^Blogslive" bad_bot<br />SetEnvIfNoCase User-Agent "^Cazoodle" bad_bot<br />SetEnvIfNoCase User-Agent "^EmailSiphon" bad_bot<br />SetEnvIfNoCase User-Agent "^FeedLounge" bad_bot<br />SetEnvIfNoCase User-Agent "^OmniExplorer" bad_bot<br />SetEnvIfNoCase User-Agent "^Sphere" bad_bot<br />SetEnvIfNoCase User-Agent "^SurveyBot" bad_bot<br />SetEnvIfNoCase User-Agent "^edgeio" bad_bot<br />SetEnvIfNoCase User-Agent "^ia_archiver" bad_bot<br />SetEnvIfNoCase User-Agent "^nutch" bad_bot<br />SetEnvIfNoCase User-Agent "^panscient.com" bad_bot<br />SetEnvIfNoCase User-Agent "^ping.blo.gs" bad_bot<br />SetEnvIfNoCase User-Agent "^topicblogs" bad_bot<br />SetEnvIfNoCase User-Agent "^Moreoverbot" bad_bot<br />SetEnvIfNoCase User-Agent "^BlogSearch" bad_bot<br />SetEnvIfNoCase User-Agent "Twiceler" bad_bot<br />SetEnvIfNoCase User-Agent "^BlogPulse" bad_bot<br />SetEnvIfNoCase User-Agent "FreeMyFeed" bad_bot<br /># SetEnvIfNoCase User-Agent "^Java" bad_bot<br /></pre>I didn't have the courage to deny all Java folks.<br /><br />Then I just have this in my apache config<pre class="code"><br />&lt;Directory /home/ark/html/&gt;<br />   Order allow,deny<br />   allow from all<br />   Deny from env=bad_bot<br />&lt;/Directory&gt;<br /></pre>I'll try and keep this post up to date. Mostly you get on this list if you're a robot that's crawling (and indexing) my rss feeds.</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

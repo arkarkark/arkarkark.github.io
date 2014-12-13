@@ -1,0 +1,13 @@
+---
+layout: post
+title: CoffeeScript ?= and ||=
+date: 2014-07-31
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+This all makes perfect sense and shouldn't be a surprise to me, but I spent time confirming it and figured I should keep my test somewhere.<br /><br /><span style="font-family: Courier New, Courier, monospace;">a = 2</span><br /><span style="font-family: Courier New, Courier, monospace;">undef = undefined; zero = 0; nuul = null; arr = []; zs = ''; o = {}; fal = false</span><br /><span style="font-family: Courier New, Courier, monospace;">console.log('input:', undef, zero, nuul, arr, JSON.stringify(zs), 0, fal)</span><br /><span style="font-family: Courier New, Courier, monospace;"><br /></span><span style="font-family: Courier New, Courier, monospace;">undef ?= a; zero ?= a; nuul ?= a; arr ?= a; o ?= a; fal ?= a</span><br /><span style="font-family: Courier New, Courier, monospace;">console.log('?= ', undef, zero, nuul, arr, JSON.stringify(zs), o, fal)</span><br /><span style="font-family: Courier New, Courier, monospace;"><br /></span><span style="font-family: Courier New, Courier, monospace;">undef = undefined; zero = 0; nuul = null; arr = []; zs = ''; o = {}; fal = false</span><br /><span style="font-family: Courier New, Courier, monospace;">undef ||= a; zero ||= a; nuul ||= a; arr ||= a; zs ||= a; o ||= a; fal ||= a</span><br /><span style="font-family: Courier New, Courier, monospace;">console.log('||=', undef, zero, nuul, arr, JSON.stringify(zs), o, fal)</span><br /><br />yields this:<br /><br /><table border="1" cellpadding="5px" style="border-collapse: collapse;">  <tbody><tr>    <th>input:</th>    <td>undefined</td>    <td>0</td>    <td>null</td>    <td>[]</td>    <td>""</td>    <td>{}</td>    <td>false</td>  </tr><tr>    <th>?= 2</th>    <td>2</td>    <td>0</td>    <td>2</td>    <td>[]</td>    <td>""</td>    <td>{}</td>    <td>false</td>  </tr><tr>    <th>||= 2</th>    <td>2</td>    <td>2</td>    <td>2</td>    <td>[]</td>    <td>2</td>    <td>{}</td>    <td>2</td>  </tr></tbody></table><br />So that's interesting. It's important to know the difference between the two. especially if your original value might be falsy.<br /><br />and maybe someone is searching for this and would use keywords like questionmark, question-mark, query, equals, or, double pipe.</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

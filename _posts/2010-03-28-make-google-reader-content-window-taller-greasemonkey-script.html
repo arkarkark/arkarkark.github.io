@@ -1,0 +1,13 @@
+---
+layout: post
+title: Make Google Reader Content Window Taller Greasemonkey Script
+date: 2010-03-28
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I just upgraded to a 13" Mac Book Pro with a 128Gig SSD. It's awesome. The screen is a little shorter than my old 15" MBP and I really notice it when using Google Reader. I found some Greasemonkey scripts that &nbsp;played around with Google Reader, but none did exactly what I wanted. I took one and modified it to work how I want. When you click 'y' the content area fills the whole window from top to bottom. Clicking it again puts everything back to how it was. It's like the vertical version of the 'u' key.<br /><br />Click to install:&nbsp;<a href="http://wtwf.googlecode.com/svn/trunk/chrome/extensions/google-reader-tall-view.user.js">google-reader-tall-view.user.js</a><br /><br />I know this works on Mac Chrome, not sure about other greasemonkey implementations, but I'll accept bug reports and especially bug fixes.<br /><br />I had a hard time with the refresh on this, once I had hidden elements the content window didn't fill the page, it just moved up. I found if I changed font size (something I've been doing by accident with this huge new trackpad...) and then set font size back to normal (with command-0) then reader would resize correctly. I tried sending a resize event to the document but that failed. The solution is to toggle one of the toggle boxes and that tickles reader in just the right way to get it to resize correctly.<br /><br />I did find development on Chrome to be pretty frustrating. I found my script in&nbsp;~/Library/Application\ Support/Google/Chrome/Default/Extensions/m.....aae/1.0/script.js but if I edited and reloaded reader it would still use the old version. If I edited the script elsewhere and reinstalled it, reader would still get the old version. My only option was to quit chrome, restart, type in my password to get to reader again and try it. Pretty annoying. All the documentation I found was old and out of date and breathlessly optimistic of Greasemonkey in Chrome and how just reloading caused your new script to execute. It's harder on a mac too since getting command line arguments to your Chrome means making an <a href="http://blog.wtwf.com/2010/02/getting-google-buzz-on-your-desktop.html">applescript application bundle</a> and then your dock is full of weird extra Chrome icons.<br /><br />I'm pretty proud of this little script and I'm sure it's going to come in really useful.</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

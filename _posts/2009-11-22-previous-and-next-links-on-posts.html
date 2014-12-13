@@ -1,0 +1,18 @@
+---
+layout: post
+title: Previous and Next links on posts
+date: 2009-11-22
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I use blogger to publish this site. my goal was to have a posting ui that wasn't on the site that somebody else looked after that could publish to my own servers. Blogger does this, but it's still lacking in a lot of features and I end up doing a bunch of hacky stuff with php to get it to work how I want. Case in point: it would be nice to have previous and next links at the top or bottom of every post. but blogger doesn't support that. At least not with the 'old' templates, the only ones available if you want to publish to your own site via sftp.<br /><br />So here you go. <a href="http://wtwf.googlecode.com/svn/trunk/feeds/prevnext.py">prevnext.py</a> goes around your blogger directory and makes little .prevnext files for every php file it finds that there is a previous or next one for. It' a little complicated by the fact you might post more than one post a day. It also makes a calendar in your archives directory called index.html that you can use CSS to style how you want it displayed.<br /><br />Here is the css I use.<br /><br /><pre class="code">.code {<br />&nbsp;&nbsp;overflow:auto; white-space: pre;<br />}<br /><br />.prev {<br />&nbsp;&nbsp;float: left;<br />}<br />.next {<br />&nbsp;float: right;<br />}<br />.prevnext {<br />&nbsp;&nbsp;clear: both;<br />}<br /><br />.archive_calendar {}<br />.archive_calendar_start {}<br />.archive_calendar_year {<br />&nbsp;&nbsp;color: #B8A80D;<br />&nbsp;&nbsp;display: block;<br />}<br />.archive_calendar_month {<br />&nbsp;&nbsp;padding-left: 3px;<br />}<br />.archive_calendar_end {<br />&nbsp;&nbsp;display: block;<br />&nbsp;&nbsp;margin:0px 0px 14px 0px;<br />}<br />.archive_calendar_half_year {<br />&nbsp;&nbsp;display: block;<br />}<br /><div></div></pre><div><br /></div><div>Here is how I include the .prevnext files in my templates</div><br /><pre class="code">&nbsp;&nbsp;$pn = &nbsp;str_replace('.php', '.prevnext', $_SERVER['SCRIPT_FILENAME']);<br />&nbsp;&nbsp;if (strpos( $_SERVER['SCRIPT_FILENAME'], 'index.php') === False &amp;&amp;<br />&nbsp;&nbsp; &nbsp; &nbsp;file_exists($pn)) {<br />&nbsp;&nbsp; &nbsp;include($pn);<br />&nbsp;&nbsp;}<br />&nbsp;}<br /></pre><br />and I run this from my crontab<br /><pre class="code">1-59/5 * * * * cd /home/blogger/scripts; $HOME/bin/share/prevnext.py -b /scripts<br /></pre><div>works o.k. every time I try and play with templates and whatnot, I always feel like redoing the whole thing, but then decide it's a huge waste of time, I should concentrate on getting the info out there rather than prettying it up for the 3 people who might actually read this blog, and most of them read it in an rss reader anyway!</div></div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Isaac</div>
+<div class='content'>
+You now have me wondering who the other two readers are.</div>
+</div>
+</div>

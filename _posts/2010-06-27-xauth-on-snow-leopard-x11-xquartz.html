@@ -1,0 +1,38 @@
+---
+layout: post
+title: xauth on snow leopard x11 xquartz
+date: 2010-06-27
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+Something's bothered me when running commands via ssh in my Snow Leopard Mac for a while now. I've been running <a href="http://xquartz.macosforge.org/trac/wiki">XQuartz</a> rather than the default X11.app for reasons I can't even remember now. This problem persists in both.<br /><br /><pre>$ ssh -X remote xlogo<br />Warning: untrusted X11 forwarding setup failed: xauth key data not generated<br />Warning: No xauth data; using fake authentication data for X11 forwarding.</pre><br />Turns out they can both be fixed if you have xauth set up right.&nbsp;Seems xauth doesn't like local DISPLAY names with periods in it.<br /><br /><pre>$ xauth generate $DISPLAY .<br />xauth: (argv):1: &nbsp;bad display name "/tmp/launch-158PCz/org.macosforge.xquartz:0" in "add" command<br /><br />$ echo $DISPLAY<br />/tmp/launch-158PCz/org.macosforge.xquartz:0</pre><br />I read a few places online and most of them recommended ignoring the problem. lots said not to change the DISPLAY variable. I found one (I forget where) that fixed the problem using symlinks and here's my implementation of that. I added this to a path that gets executed from my .bashrc<br /><br /><pre>if [ -e "$DISPLAY" ]; then<br />  DISPDIR=$(dirname $DISPLAY)<br />  NEWDISP="${DISPDIR}/:0"<br />  if [ ! -e "$NEWDISP" ]; then<br />    ln -s "$DISPLAY" "$NEWDISP"<br />    xauth -q generate "$NEWDISP" .<br />  fi<br />  export DISPLAY="$NEWDISP"<br />fi<br /></pre><br />If any of this is a tremendously bad idea just let me know!<br /><br />You might be tempted to add&nbsp;ForwardX11Trusted to you ~/.ssh/config but I've heard that's a bad idea.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Kannapolis 2.0</div>
+<div class='content'>
+Thank you all for solving this issue for me!  Anyone have a command to speed up my work&#39;s VPN speed? :-)</div>
+</div>
+<div class='comment'>
+<div class='author'>Ben</div>
+<div class='content'>
+I just got bitten by this, but it didn&#39;t seem to be the &#39;.&#39; that xauth objected to because using the symlink /tmp/launch-iq6W7f/orgamacosforgeaxquartz:0 didn&#39;t fix things; running SSH&#39;s raw token generation still yielded:<br /><br />/usr/X11R6/bin/xauth: (argv):1:  bad display name &quot;/tmp/launch-iq6W7f/orgamacosforgeaxquartz:0&quot; in &quot;add&quot; command&quot;<br /><br />and I still got the failure message from SSH.<br /><br />Rather than guess what it wanted, I tried the xauth from MacPorts&#39; x11/xauth package.  That worked, dots and all:<br /><br />bash$ touch blahxauthfile <br />bash$ /opt/X11/bin/xauth -f blahxauthfile generate /tmp/launch-iq6W7f/org.macosforge.xquartz:0 MIT-MAGIC-COOKIE-1 untrusted timeout 1200<br />bash$<br /><br />and can be set in .ssh/config using XAuthLocation.  Let&#39;s hope Lion fixes /usr/X11R6/bin/xauth.</div>
+</div>
+<div class='comment'>
+<div class='author'>Greg Hammett</div>
+<div class='content'>
+I tried your work-around, and it worked well for me.  I&#39;m surprised this isn&#39;t more widely known on the web.  Many Mac people must be getting the following annoying error messages when trying to do &quot;ssh -X remotehost&quot;:<br /><br />Warning: untrusted X11 forwarding setup failed: xauth key data not generated  <br />Warning: No xauth data; using fake authentication data for X11 forwarding.<br /><br />My two modifications to your fix were to drop the line that executed &quot;xauth&quot;, for the reasons that James Gilbert said, and that I put it in ~/.bash_profile, which I think is the more standard place to modify environment variables (at least that&#39;s how my Mac bash environment is set up).  Your approach of using a logical link seemed less-intrusive and safer than moving the file.  The resulting section I added to ~/.bash_profile is:<br /><br />if [ -e &quot;$DISPLAY&quot; ]; then<br />  DISPDIR=$(dirname $DISPLAY)<br />  NEWDISP=&quot;${DISPDIR}/:0&quot;<br />  if [ ! -e &quot;$NEWDISP&quot; ]; then<br />    ln -s &quot;$DISPLAY&quot; &quot;$NEWDISP&quot;<br />  fi<br />  export DISPLAY=&quot;$NEWDISP&quot;<br />fi<br /><br />Your procedure provides a workaround to an acknowledged bug in XQuartz, see http://xquartz.macosforge.org/trac/ticket/459, which has been fixed as of XQuartz v. 2.6.0, but Apple&#39;s Software Update has not yet pushed out these bug fixes as of the current time (even though this bug was fixed 7 months ago).<br /><br />The &quot;untrusted X11 forwarding&quot; is apparently designed to try to prevent keyloggers from stealing passwords, etc.  However, one should be aware that there are statements on the web that this may give a false sense of security and is only slightly more secure than &quot;trusted X11 forwarding&quot;, see for example:<br /><br />http://cygwin.com/ml/cygwin-xfree/2008-11/msg00154.html<br />http://dailypackage.fedorabook.com/index.php?/archives/48-Wednesday-Why-Trusted-and-Untrusted-X11-Forwarding-with-SSH.html<br /><br />I do not understand these issues well enough to know if they are out of date or not.  The official x.org web site has some statements about &quot;ongoing&quot; work to improve security:<br /><br />http://www.x.org/wiki/Development/Documentation/Security</div>
+</div>
+<div class='comment'>
+<div class='author'>James Gilbert</div>
+<div class='content'>
+Thanks for this post. Having read it, I decided to do it slightly differently.  I put this in my ~/.bash_profile (which is where I modify any environment variables):<br /><br />    if [ -e &quot;$DISPLAY&quot; ]; then<br />        dispdir=`dirname $DISPLAY`<br />        dispfile=`basename $DISPLAY`<br />        if [ &quot;$dispfile&quot; = &quot;org.macosforge.xquartz:0&quot; ]; then<br />            dispnew=&quot;$dispdir/:0&quot;<br />            mv &quot;$DISPLAY&quot; &quot;$dispnew&quot; &amp;&amp; export DISPLAY=&quot;$dispnew&quot;<br />        fi<br />    fi<br /><br />So I rename the file, rather than making a symbolic link. I don&#39;t run xauth, because ssh appears to do that for me when I connect to a host with X11Forward set, and because when xauth runs it launches my X11, so I don&#39;t want that happening.</div>
+</div>
+<div class='comment'>
+<div class='author'>abonatto</div>
+<div class='content'>
+Hey: if it is or not a good idea, I have not enough knowledge to tell you, but it worked perfectly for me!<br /><br />Thanks :-)</div>
+</div>
+</div>

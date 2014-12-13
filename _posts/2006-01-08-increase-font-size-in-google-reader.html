@@ -1,0 +1,13 @@
+---
+layout: post
+title: Increase font size in Google Reader
+date: 2006-01-08
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I find the font size for the articles in google reader too small. Increasing the font size using command+ in firefox works, but the lens on the right is all misaligned after I've done it and I never feel comfortable hitting reload to make it recalculate the lens size.<br /><br />If you add this to your userContent.css in the chrome directory in your profile directory the font will be bigger and more readable.<br /><pre>@-moz-document url-prefix(http://www.google.com/reader/) {<br />.item-body-container {<br />  font-size: 130%!important;<br />}<br />.queue-buttons a {<br />  font-size: 80% !important;<br />}<br />}<br /></pre>If you don't have a userContent.css you might have a userContent-example.css just copy that over and add these lines.</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>

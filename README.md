@@ -1,4 +1,0 @@
-arkarkark.github.io
-===================
-
-blog

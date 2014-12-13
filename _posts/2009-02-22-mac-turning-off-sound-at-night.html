@@ -1,0 +1,13 @@
+---
+layout: post
+title: "mac: turning off sound at night"
+date: 2009-02-22
+comments: false
+---
+
+<h1>{{ page.title }}</h1>
+<div class='post'>
+I thought I'd share:<br /><br />My daughter sleeps in the room next to the den where my mac is. My email notifier pings when I get mail and I don't want it to wake her up. I made two cron entries that turn it off between noon and 4PM and 6PM and 7AM. I've also included the little header I have at the top of my crontab files to remind me what the hell each column means.<pre class="code">#              field          allowed values<br />#              -----          --------------<br />#              minute         0-59<br />#              hour           0-23<br />#              day of month   1-31<br />#              month          1-12 (or names, see below)<br />#              day of week    0-7 (0 or 7 is Sun, or use names)<br /># If you are feeling fancy try this... 0-59/10 every 10 minutes<br /># 0,24,36,48 at these minutes past the hour<br /><br /># Turn off the sound at night time and nap time.<br />1 12,18 * * * osascript -e "set volume 0"<br />1 7,16 * * * osascript -e "set volume 10"</pre>I also learned how to remove the little eject button (or anything) from the menu bar in OSX 10.5 Leopard. You just hold down the cmd key and drag it off there with your mouse and it vanishes. No news on how to get it back!</div>
+<h2>Comments</h2>
+<div class='comments'>
+</div>
