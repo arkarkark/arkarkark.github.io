@@ -47,7 +47,7 @@ Fixing this was non-trivial. Jekyll doesn't support mod-rewrite (as [danvk noted
 
 First get a list of all the pages on your blogger blog. I leveraged the little posts' archive blogger widget to get them all like this.
 
-```shell
+```bash
 for yr in $(seq 2005 2014); do \
   for mo in $(seq -w 1 12); do  \
     sleep 1; \
@@ -59,7 +59,7 @@ for yr in $(seq 2005 2014); do \
 At first I was going to fix this by hand. To see how big the problem was I ran this in the _posts directory.
 Things starting with a 2 were o.k. everything else was wrong.
 
-```shell
+```bash
 (cat ../all.txt | fgrep -v _archive.html ; \ls -d * | \
 perl -p -e 's!^(\d+)-(\d+)-\d+-(.*)$!http://blog.wtwf.com/$1/$2/$3!g') \
 | sort | uniq -c | sort -r -n >../diffs.txt
@@ -84,16 +84,29 @@ rss: "http://wtwf.com/scripts/atom.xml"
 and updated this line in _includes/head.html
 
 ```html
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{% if site.rss %}{{ site.rss }}{% else %}{{"/feed.xml" | prepend: site.baseurl }}{% endif %}" >
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{% if site.rss %}{{ site.rss }}{% else %}{{"/feed.xml" | prepend: site.baseurl }}{% endif %}" >
 ```
 
 and index.html
 
 ```html
-  <p class="rss-subscribe">subscribe <a href="{% if site.rss %}{{ site.rss }}{% else %}{{"/feed.xml" | prepend: site.baseurl }}{% endif %}">via RSS</a></p>
+<p class="rss-subscribe">subscribe <a href="{% if site.rss %}{{ site.rss }}{% else %}{{"/feed.xml" | prepend: site.baseurl }}{% endif %}">via RSS</a></p>
+```
+
+## Syntax highlighting
+
+I like code fences with the language specified after the triple ticks. to get that to work I had to change the markdown config to `redcarpet`.
+
+To get it working when I served files locally with jekyll I had to
+
+```bash
+sudo pip install Pygments
+gem install redcarpet
+gem install pygments.rb
 ```
 
 ## What's next...
 
-**Next up** labels/tags.
+   * labels/tags.
 [This post](http://www.minddust.com/post/tags-and-categories-on-github-pages/) is going to be helpful!
+   * injecting live.js on pages when I'm serving locally

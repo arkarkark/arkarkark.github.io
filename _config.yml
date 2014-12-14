@@ -10,5 +10,5 @@ github_username:  arkarkark
 rss: "http://wtwf.com/scripts/atom.xml"
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: /:year/:month/:title.html
