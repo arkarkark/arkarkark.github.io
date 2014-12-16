@@ -1,0 +1,8 @@
+<h3>Email me</h3>
+<ul>
+  <li><span id="notify_us"></span></li>
+</ul>
+<script>
+var d = '&#064;' + location.hostname.split('.').slice(-2).join('.');
+document.getElementById('notify_us').innerHTML = ('<a href="mailto:' + 'ark' + d +'">Email ark</a>');
+</script>

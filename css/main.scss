@@ -43,6 +43,14 @@ $on-laptop:        800px;
 }
 
 
+.tags-list li {
+  display: inline-block;
+  white-space: nowrap;
+  &::after {
+    content: " • ";
+  }
+}
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

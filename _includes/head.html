@@ -10,4 +10,11 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{% if site.rss %}{{ site.rss }}{% else %}{{"/feed.xml" | prepend: site.baseurl }}{% endif %}" >
   <link href="/favicon.ico" rel="icon">
+  <script>
+    if (window.location.port == 4000) {
+      el = document.createElement('script');
+      el.src = '/js/live.js';
+      document.head.appendChild(el);
+    }
+  </script>
 </head>

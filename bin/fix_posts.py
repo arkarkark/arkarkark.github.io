@@ -20,6 +20,7 @@ https://draft.blogger.com/blogger_rpc?blogID=10...44
 
 __author__ = 'wtwf.com (Alex K)'
 
+import collections
 import getopt
 import logging
 import os
@@ -31,6 +32,7 @@ import json
 YAML_SEP = '---\n'
 FILE_PREFIX_LENGTH = 5
 POSTS_DIR = '_posts'
+LABELS_DIR = 'search/label'
 
 def Usage(code, msg=''):
   """Show a usage message."""
@@ -49,7 +51,7 @@ def Main():
   logging.basicConfig()
   logging.getLogger().setLevel(logging.DEBUG)
   try:
-    opts, args = getopt.getopt(sys.argv[1:], 'h', 'help,permalinks,labels'.split(','))
+    opts, args = getopt.getopt(sys.argv[1:], 'h', 'help,permalinks,tags,import_labels'.split(','))
   except getopt.error, msg:
     Usage(1, msg)
 
@@ -61,8 +63,11 @@ def Main():
       Usage(0)
     if opt == '--permalinks':
       FixPermalinks()
-    if opt == '--labels':
+    if opt == '--import_labels':
       FixLabels()
+      MakeTagsFiles()
+    if opt == '--tags':
+      MakeTagsFiles()
 
 def FixPermalinks():
   """fix it to add permalinks."""
@@ -98,6 +103,17 @@ def SetJekyllVariable(file_name, key, value):
   sections[1] = yaml.dump(jenky, default_flow_style=False)
   open(file_name, 'w').write(YAML_SEP.join(sections))
 
+def GetJekyllVariable(file_name, key):
+  """Update a variable in the jenkins section of a post file."""
+  file_name = os.path.join(POSTS_DIR, file_name)
+  if not os.path.isfile(file_name):
+    return
+  contents = open(file_name).read()
+  sections = contents.split(YAML_SEP)
+  if len(sections) < 2:
+    logging.fatal('invalid file format: %r', file_name)
+  jenky = yaml.load(sections[1])
+  return jenky.get(key)
 
 def FixLabels():
   logging.info('Fixing Labels')
@@ -114,7 +130,8 @@ def FixLabels():
     missing = []
     if file_name and labels:
       logging.info('%s: %s', title, file_name)
-      SetJekyllVariable(file_name, 'tags', map(str, labels))
+      labels = map(str, labels) # builtin map pylint: disable=W0141
+      SetJekyllVariable(file_name, 'tags', labels)
     else:
       missing.append('Unable to find file for: %s %s' % (state, title))
     if missing:
@@ -128,7 +145,11 @@ def GetFileMap():
       file_map[key] = file_name
     key = KeyFromFileNameDate(file_name)
     if key:
-      file_map[key] = file_name
+      if key in file_map:
+        # Collision - two posts on the same day, use neither!
+        file_map[key] = '_ambiguous post_'
+      else:
+        file_map[key] = file_name
   return file_map
 
 def KeyFromFileName(file_name):
@@ -138,6 +159,15 @@ def KeyFromFileName(file_name):
   del parts[2]
   parts[-1] = parts[-1][0:FILE_PREFIX_LENGTH]
   return '-'.join(parts)
+
+def UrlFromFilename(file_name):
+  parts = file_name.split('-', 3)
+  if len(parts) < 3:
+    return None
+  del parts[2]
+  if parts[-1].endswith('.md'):
+    parts[-1] = parts[-1][0:-3] + '.html'
+  return '/' + '/'.join(parts)
 
 def KeyFromFileNameDate(file_name):
   parts = file_name.split('-', 3)
@@ -159,11 +189,54 @@ def FindPostFileFromUrl(file_map, url, date):
   key = KeyFromPath(url.path)
   file_name = file_map.get(key)
   if not file_name:
-    date_parts = map(int, date.split('/'))
+    date_parts = map(int, date.split('/')) # builtin map pylint: disable=W0141
     if len(date_parts) == 3:
       key = '20%02d-%02d-%02d' % (date_parts[2], date_parts[0], date_parts[1])
       file_name = file_map.get(key)
   return file_name
+
+def MakeTagsFiles():
+  MakeTagsFilesForLabels(*GetAllTags())
+
+def GetAllTags():
+  all_labels = set()
+  posts = collections.defaultdict(list)
+  for file_name  in os.listdir(POSTS_DIR):
+    labels = GetJekyllVariable(file_name, 'tags')
+    permalink = GetJekyllVariable(file_name, 'permalink')
+    title = GetJekyllVariable(file_name, 'title')
+    if labels:
+      for label in labels:
+        if not permalink:
+          permalink = UrlFromFilename(file_name)
+        posts[label].append({'url': permalink, 'title': title})
+      all_labels.update(labels)
+  return (sorted(list(all_labels)), posts)
+
+def MakeTagsFilesForLabels(labels, posts):
+  template = """---
+layout: blog_by_tag
+tag: %(tag)s
+permalink: %(url)s
+---
+"""
+
+  tags = open('_data/tags.yaml', 'w')
+
+  logging.info(posts.keys())
+
+  for label in labels:
+    base = os.path.join(LABELS_DIR, label)
+    url = '/%s.html' % base
+    file_name = '%s.md' % base
+    label_file = open(file_name, 'w')
+    label_file.write(template % {'url': url, 'tag': label})
+    tags.write(yaml.dump([{
+      'slug': label,
+      'url': url,
+      'name': label,
+      'posts': posts[label]
+    }]))
 
 if __name__ == '__main__':
   Main()

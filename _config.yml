@@ -1,5 +1,5 @@
 # Site settings
-title: Ark's tech blog
+title: Ark's Tech Blog
 # email: blog@wtwf.com
 description: > # this means to ignore newlines until "baseurl:"
   I sometimes want to link to stuff I find useful or stuff that I've written (of a geeky nature).
@@ -12,3 +12,5 @@ rss: "http://wtwf.com/scripts/atom.xml"
 # Build settings
 markdown: redcarpet
 permalink: /:year/:month/:title.html
+
+tags: ['android']
