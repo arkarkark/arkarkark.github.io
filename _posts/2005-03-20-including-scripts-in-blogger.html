@@ -6,7 +6,7 @@ permalink: /2005/03/including-scripts-in-blogger.php
 title: including scripts in blogger
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 So I created this blog to document some scripts I wrote or found useful and to share them with people. I don't expect people to read this, but I do hope that someone searching for something will find the info here if it's pertinent.<br /><br />The first thing I wanted to do was put my scripts here without having to put them on my own server, but blogger doesn't provide a way, sure I could just paste the text of the script into a blogger entry or even play with the &lt;plaintext&gt; tag, but it's not very readable is it? I also learned that blogger doesn't like &lt;script&gt; tags in entries either, but it will allow you to put onclick javascript handlers in links or forms, so I created a perl script that given a file outputs the javascript you'd need to put into an onclick handler to popup a new window with your script in it.<br /><br />So in full on recursiveness I first used it on itself and below you can click to pop up a new window with my bloggerquote script in it. It's useful to pipe the output into pbcopy (osx) to put the command output into the clipboard, xclip does this for x-windows systems, windows users might be able to modify it to use Win32::clipboard<br /><br />The very DAY after I create this <a href="http://ourmedia.org/">ourmedia.org</a> was announced, giving you lifetime free hosting which might be a better solution (maybe)....<br /><br />Screw it, the fancy HTML escaping and stuff was breaking in the blogger compose box so I've given up on it... plus I'm no longer on blogspot.com I'm here on my own domain.</div>
 <h2>Comments</h2>

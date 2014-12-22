@@ -10,7 +10,7 @@ tags:
 title: sftp in a chroot environment
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 You can ignore all the code below and just go read this page about <a href="http://undeadly.org/cgi?action=article&amp;sid=20080220110039">setting up a chroot sftp server with the standard openssh</a>, it's built right in now and awesome!<br /><br /><hr /><br />I publish to my blog using sftp. Since I use blogger I had to give them a username and password. I wanted to restrict my exposure so I made a little program that would only run the sftp-server and run it in a chrooted environment, I then set this as the shell for the account. I'm not totally sure it's any more secure, but it makes me feel better.<br /><br />Getting the files I needed to run a program in a chroot environment was harder than expected, ldd didn't give me all the info I needed, but it was a good start.<br /><br />Check out the <a href="http://code.google.com/p/wtwf/source/browse/#svn/trunk/sftpchroot">source code</a>. with a README file and even an example of what files you'll need. At least in &nbsp;Ubuntu 9.10.</div>
 <h2>Comments</h2>

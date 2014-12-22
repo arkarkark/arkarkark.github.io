@@ -8,7 +8,7 @@ tags:
 title: Archving things on the web
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 I often seem images as I'm browsing around that make me laugh a lot <a href="http://myconfinedspace.com/">myconfinedspace.com</a> has been an especially good source recently . I'd like to keep them, but it needs to be as easy and seamless as possible. Here's what I do.<br /><br />If I can I select the image, open up a <a href="http://www.google.com/notebook/">google notebook</a> and click on 'clip'<br />now it's in my google notebook.<br />However notebook used to serve a cached copy of the image, but it no longer does that so I have one more step to make sure I don't lose the image.<br />I have a cron job that runs every week that backs up my public notebook url and all the images referenced from it. It's easy to do with wget, here's the command line I use:<pre class="code"><br />wget -t 1 -T 15 -N -E -H -k -K -p http://google.com/notebook/public/NOTEBOOK_PATH<br /></pre>That makes a whole bunch of directories for each website and has all the images on the local disk. If an image vanishes off the net it should stay around in the directories and I'll still have it.<br /><br />After it's loaded you can run my <a href="http://wtwf.com/wwwis/">wwwis</a> script over it to fix all the image width and heights too.</div>
 <h2>Comments</h2>

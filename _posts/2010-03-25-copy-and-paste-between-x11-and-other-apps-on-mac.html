@@ -8,7 +8,7 @@ tags:
 title: Copy and paste between X11 and other apps on Mac
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 If you find you can't cut and paste between regular apps and X11 in Mac OSX (Leopard?) then it might be because you installed Xcode. You can fix this with this simple fix<br /><br />defaults write org.x.X11 sync_clipboard_to_pasteboard -boolean true<br />defaults write org.x.X11 sync_pasteboard -boolean true<br />defaults write org.x.X11 sync_pasteboard_to_clipboard -boolean true<br />defaults write org.x.X11 sync_pasteboard_to_primary -boolean true<br />defaults write org.x.X11 sync_primary_on_select -boolean true<br /><br />However, you can't cut and paste so typing all that in is going to be annoying eh? I had a hard time finding something to create a simple text file, TextEdit won't let you save as TXT, so in the end I saved as HTML then edited it in emacs in an xterm and then X11 copy/pasted it to my command line, restarted X11 and bam, it works.<div><br /></div><div>Another option is just to get the latest <a href="http://xquartz.macosforge.org/trac/wiki">XQuartz</a>&nbsp;mine was 2.1.6 and the latest right now seems to be 2.4.0.</div></div>
 <h2>Comments</h2>

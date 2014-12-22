@@ -75,13 +75,15 @@
   - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   - {title: How to create direct links to Chrome Remote Desktop connections, url: /2014/07/how-to-create-direct-links-to-chrome.html}
-  - {title: Github Markdown Server, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: chrome
   url: /search/label/chrome.html
 - name: coffeescript
   posts:
   - {title: 'CoffeeScript ?= and ||=', url: /2014/07/coffeescript-and.html}
-  - {title: Github Markdown Server, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: coffeescript
   url: /search/label/coffeescript.html
 - name: copypaste
@@ -96,14 +98,16 @@
   url: /search/label/cron.html
 - name: cson
   posts:
-  - {title: Github Markdown Server, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: cson
   url: /search/label/cson.html
 - name: development
   posts:
   - {title: levels of development of my stuff, url: /2010/03/levels-of-development-of-my-stuff.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
-  - {title: Github Markdown Server, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: development
   url: /search/label/development.html
 - name: diy
@@ -128,7 +132,8 @@
   - {title: 'xterms, gnu screen and emacs and control cursor keys', url: /2008/10/xterms-gnu-screen-and-emacs-and-control.php}
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
   - {title: emacs on osx, url: /2014/07/emacs-on-osx.html}
-  - {title: Github Markdown Server, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: emacs
   url: /search/label/emacs.html
 - name: facebook
@@ -162,13 +167,14 @@
   url: /search/label/git.html
 - name: github
   posts:
-  - {title: Github Markdown Server, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   slug: github
   url: /search/label/github.html
 - name: gnumake
   posts:
-  - {title: Github Markdown Server, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: gnumake
   url: /search/label/gnumake.html
 - name: google
@@ -198,7 +204,8 @@
   - {title: 'My last greasemonkey script: blog picasa images', url: /2009/11/my-last-greasemonkey-script-blog-picasa.php}
   - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
-  - {title: Github Markdown Server, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: greasemonkey
   url: /search/label/greasemonkey.html
 - name: ham

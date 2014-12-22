@@ -6,8 +6,6 @@ comments: false
 tags: [github]
 ---
 
-# {{ page.title }}
-
 I started getting used to writing
 [github markdown](https://guides.github.com/features/mastering-markdown/)
 and wanted to use it to write blog posts here. Mostly because quoting
