@@ -14,7 +14,7 @@ tags:
 title: copy paste in X11 Xquartz on a mac
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 <br />copy/paste stopped working on my mac (Xquartz) between xterms and Chrome.<br /><br />I'm still sudo updating port (grr mavericks) but I think I found the real culprit/solution<br /><br />adding this to my .XDefaults<br /><br />XTerm*selectToClipboard: true<br /><br />and relaunching my xterms seemed to fix it.﻿<br /><br />yeah, I'm not totally sure this is the fix. it might just be that restarting my xterm was enough to get it working again. yay for gnu screen :)﻿<br /><br />the saga continues... I noticed that selecting text in emacs wasn't working either. I launch my emacs with emacsclient -n -c connecting to a Emacs I started with emacs --daemon<br /><div><br /></div>(custom-set-variables<br />&nbsp;'(mouse-drag-copy-region t)<br /><br />I also found this helpful when looking at this....<br /><br />echo -n 'primary: '; xclip -select primary -o; echo ''; echo -n 'clip &nbsp; : '; xclip -select clipboard -o; echo ''<br /><div><br /></div></div>
 <h2>Comments</h2>

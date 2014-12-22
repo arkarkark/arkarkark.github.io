@@ -8,7 +8,7 @@ tags:
 title: xterms, gnu screen and emacs and control cursor keys
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 If you have a problem with pressing control and the cursor keys in emacs I might have the solution.<br /><br />After upgrading to ubuntu hardy and upgrading to OS X leopard I found that my xterms into my old web server would running dapper not honor the control arrow keys in emacs. It worked fine in bash but not emacs. Emacs would see it as two key presses which is harder to create a keybinding for, M-x describe key would show "ESC [ 1 ;" and then 5C would be added to the current buffer.<br /><br />The solution I found was to use emacs 22 not emacs 21. emacs-snapshot on dapper seems to be 22. That fixed it in xterms, but during a gnu screen session it was still borked. I found this was likely a termcap issue there so fixed it by ading term=xterm to my screenrc which now looks like this:<br /><br /><pre><br />vbell off<br />defscrollback 1000<br />escape ^^^^<br />term xterm<br /><br /># enable scrolling in the xterm<br />termcapinfo xterm|xterms|xs|rxvt ti@:te@<br /></pre><br /><br />Here's another blog post about <a href="http://snarfed.org/space/control+arrow+keys+in+rxvt,+tcsh,+and+emacs">rxvt and stuff</a>.</div>
 <h2>Comments</h2>

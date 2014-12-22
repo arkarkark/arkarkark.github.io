@@ -8,7 +8,7 @@ tags:
 title: preview feeds in google reader
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 I dislike that when I click on a feed icon in firefox, it opens a lame google page showing an option to insert on iGoogle or view in reader which automatically subscribes me rather than showing me the feed.<br /><br />here's how to fix it<br /><br />make a file like this called openfeed<br /><pre class="code"><br />#!/usr/bin/python2.4<br /># Copyright 2007 Alex K (wtwf.com) All rights reserved.<br /><br />import os<br />import sys<br />import urllib<br /><br />def main(argv):<br />  feed_url = urllib.quote(argv[1])<br />  url = 'http://www.google.com/reader/view/feed/' + feed_url<br />  cmd = 'firefox -noraise -remote "openURL(%s,new-tab)" &gt;/dev/null 2&gt;&amp;1' % url<br />  os.system(cmd)<br /><br />if __name__ == '__main__':<br />  main(sys.argv)<br /></pre>and then in preferences under feed, choose this application and always do it.<br /><br />I previously tried this, but never got it to work properly....<br /><br />set<br /><span style="font-weight:bold;">browser.feeds.handlers.webservice</span><br />and<br /><span style="font-weight:bold;">browser.contentHandlers.auto.application/vnd.mozilla.maybe.feed</span><br />to<br /><span style="font-weight:bold;">http://www.google.com/reader/view/feed/%s</span><br /><br />problem solved</div>
 <h2>Comments</h2>

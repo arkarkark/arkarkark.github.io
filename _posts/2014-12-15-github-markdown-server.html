@@ -2,7 +2,7 @@
 comments: false
 date: 2014-12-15
 layout: post
-permalink: /2014/12/github-tweaks-and-cson-to-json-in.html
+permalink: /2014/12/github-markdown-server.html
 tags:
 - chrome
 - coffeescript
@@ -15,6 +15,6 @@ tags:
 title: Github Markdown Server
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 I've been writing a lot of <a href="https://guides.github.com/features/mastering-markdown/">github markdown</a> recently and wanted a way to preview how it'll look in a browser as I'm writing it.<br /><br />With github-markdown-preview and live.js I put together my first ruby gem: <a href="https://rubygems.org/gems/github-markdown-server">github-markdown-server</a>.<br /><br />Just fire it up pointing at a markdown file and it'll covert it to html and serve it. It'll then keep monitoring the file and if it changes on disk, it'll refresh the browser.<br /><br />In the contrib directory I added emacs lisp code to automatically fire it up and reuse/manage servers for multiple files. So now when I'm editing a file in emacs I just hit control-f1 and that file opens up in my browser. The control-f1 command also opens up source files on github if you are in a github cloned repository.<br /><br /></div>

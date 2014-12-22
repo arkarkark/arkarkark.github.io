@@ -1,16 +1,27 @@
-# Site settings
-title: Ark's Tech Blog
-# email: blog@wtwf.com
+name: Ark's Tech Blog
 description: > # this means to ignore newlines until "baseurl:"
   I sometimes want to link to stuff I find useful or stuff that I've written (of a geeky nature).
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.wtwf.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username:  arkarkark
+
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
+
+url: http://blog.wtwf.com
+
+owner:
+    name: ark
+    github: arkarkark
+
 rss: "http://wtwf.com/scripts/atom.xml"
+# Once we move to liquid 3.0 we can use {{ site.rss | url_encode }} for this.
+rss_url_escape: "http%3A%2F%2Fwtwf.com%2Fscripts%2Fatom.xml"
 
-# Build settings
+ga_id: UA-8945521-1
+ga_username: auto
+
+permalink: /:year/:month/:title/
+timezone: America/Los_Angeles
+
 markdown: redcarpet
-permalink: /:year/:month/:title.html
-
-tags: ['android']
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]

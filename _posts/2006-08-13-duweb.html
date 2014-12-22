@@ -6,7 +6,7 @@ permalink: /2006/08/duweb.php
 title: duweb
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 <a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://wtwf.com/scripts/uploaded_images/duwebscreen-757306.png"><img style="margin: 0pt 10px 10px 0pt; float: left; cursor: pointer;" src="http://wtwf.com/scripts/uploaded_images/duwebscreen-750729.png" alt="" border="0" /></a>duweb is a web interface to the output of the du command. It's a nice way to work out which directories are using the most disk space and allows you to mine down and find more about the subdirectories. It saves you running du -s * | sort -n and then cd and then repeating which is what I used to do.<br /><br />It uses <a href="http://webfx.eae.net/dhtml/xloadtree/xloadtree.html">WebFxLoadTree</a> but I needed some of the functionality of the <a href="http://webfx.eae.net/dhtml/xtree2b/">beta version 2</a>. It's a really nice way to display trees and not have to have all the tree data when you do it.<br /><br />You can run it as a cgi program where it'll load the du data out of a file in /tmp but you can also just run it as a standalone program and it fires up it's own built in webserver (thank you python libraries!)<br /><br />Hope you find it useful. It requires python 2.4 since it uses the new subprocess library. Here's a link to where I found <a href="http://pythonmac.org/packages/py24-fat/">python 2.4 for osx</a>. <a href="/scripts/bin/duweb"><br /><br />Download the source for duweb</a>.</div>
 <h2>Comments</h2>

@@ -41,7 +41,7 @@ def Usage(code, msg=''):
   else:
     fd = sys.stdout
   PROGRAM = os.path.basename(sys.argv[0]) # pylint: disable=invalid-name,unused-variable
-  print >> fd, __doc__ % locals()
+  print >> fd, __doc__
   if msg:
     print >> fd, msg
   sys.exit(code)
@@ -55,7 +55,7 @@ def Main():
   except getopt.error, msg:
     Usage(1, msg)
 
-  if args:
+  if args or not opts:
     Usage(1)
 
   for opt, arg in opts:
