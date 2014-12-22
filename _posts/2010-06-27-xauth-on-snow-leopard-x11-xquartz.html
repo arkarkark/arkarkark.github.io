@@ -10,7 +10,7 @@ tags:
 title: xauth on snow leopard x11 xquartz
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 Something's bothered me when running commands via ssh in my Snow Leopard Mac for a while now. I've been running <a href="http://xquartz.macosforge.org/trac/wiki">XQuartz</a> rather than the default X11.app for reasons I can't even remember now. This problem persists in both.<br /><br /><pre>$ ssh -X remote xlogo<br />Warning: untrusted X11 forwarding setup failed: xauth key data not generated<br />Warning: No xauth data; using fake authentication data for X11 forwarding.</pre><br />Turns out they can both be fixed if you have xauth set up right.&nbsp;Seems xauth doesn't like local DISPLAY names with periods in it.<br /><br /><pre>$ xauth generate $DISPLAY .<br />xauth: (argv):1: &nbsp;bad display name "/tmp/launch-158PCz/org.macosforge.xquartz:0" in "add" command<br /><br />$ echo $DISPLAY<br />/tmp/launch-158PCz/org.macosforge.xquartz:0</pre><br />I read a few places online and most of them recommended ignoring the problem. lots said not to change the DISPLAY variable. I found one (I forget where) that fixed the problem using symlinks and here's my implementation of that. I added this to a path that gets executed from my .bashrc<br /><br /><pre>if [ -e "$DISPLAY" ]; then<br />  DISPDIR=$(dirname $DISPLAY)<br />  NEWDISP="${DISPDIR}/:0"<br />  if [ ! -e "$NEWDISP" ]; then<br />    ln -s "$DISPLAY" "$NEWDISP"<br />    xauth -q generate "$NEWDISP" .<br />  fi<br />  export DISPLAY="$NEWDISP"<br />fi<br /></pre><br />If any of this is a tremendously bad idea just let me know!<br /><br />You might be tempted to add&nbsp;ForwardX11Trusted to you ~/.ssh/config but I've heard that's a bad idea.</div>
 <h2>Comments</h2>

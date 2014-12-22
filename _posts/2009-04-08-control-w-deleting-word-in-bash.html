@@ -9,7 +9,7 @@ tags:
 title: control-w deleting word in bash
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 It's always bothered me that control-w in bash doesn't delete a word, it deletes everything until the previous space.<br /><br />Add this to your ~/.inputrc to make it work:<pre class="code">set bind-tty-special-chars off<br />"\C-w": backward-kill-word</pre>More description <a href="http://www.shallowsky.com/blog/linux/bash-word-erase.html">here</a>.</div>
 <h2>Comments</h2>

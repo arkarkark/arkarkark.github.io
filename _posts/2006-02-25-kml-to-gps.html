@@ -6,7 +6,7 @@ permalink: /2006/02/kml-to-gps.php
 title: KML to GPS
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 The <a href="http://seaotterclassic.com/">Sea Otter Classic</a> is a big bike event in California. I wanted to preride the mountain bike course. In partnership with <a href="http://motionbased.com/">Motion Based</a> they have <a href="http://trail.motionbased.com/trail/episode/view.mb?episodePk.pkValue=426171">cool maps</a> and a <a href="http://earth.google.com/">Google Earth</a> downloadable KMZ file so you can see the route in Google Earth. Here's the steps I took to get that data into my GPS so I could follow the route easily.<ul><li>Download the <a href="http://trail.motionbased.com/trail/kml/episode.kml?episodePk.pkValue=426171">KMZ</a></li><li>Load it into Google Earth</li><li>Save as KML</li><li>Use this <a href="http://www.fish-track.com/kmltogpx/">KML to GPX converter</a> to get some GPX (do it online or download the java app). I did mine online.</li><li>Now use gpsbabel to convert this into something smaller.<br /><div class="code">gpsbabel -r -i gpx -f MTB\ XC.gpx -x simplify,count=50 -o kml -F sml.kml</div></li><li>Load that into Google Earth, does it look o.k.? Tweak values until it does, then export to your GPS device (mine's a Garmin Fore Trex 201)<br /><div class="code">gpsbabel -r -i gpx -f MTB\ XC.gpx -x simplify,count=50 -o garmin -F /dev/cu.KeySerial1</div></li><li>Now it should show up as a route on your GPS device.</li></ul>I'm still bringing a printed MAP just in case!</div>
 <h2>Comments</h2>

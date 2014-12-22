@@ -1,23 +1,22 @@
 ---
 layout: default
 ---
+<div class="col-sm-12">
+    <div class="posts">
+        {% for post in site.posts %}
+        <div class="post-li">
+            <div class="col-sm-8">
+                <ul class="postlist-block">
+                    <li><time class="timeago postlist-meta" datetime="{{ post.date }}">{{ post.date |  date: "%A %-d %B %Y" }}</time>
+                    <li><a class="postlist-title" href="{{ post.url }}">{{ post.title }}</a></li>
+                </ul>
+            </div>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{% if site.rss %}{{ site.rss }}{% else %}{{"/feed.xml" | prepend: site.baseurl }}{% endif %}">via RSS</a></p>
-
+            <div class="col-sm-4 hide-on-phone">
+                <ul class="postlist-block pull-right postlist-meta">
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </div>

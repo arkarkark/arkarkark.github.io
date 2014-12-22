@@ -10,7 +10,7 @@ tags:
 title: Check the output of cronjobs every month
 ---
 
-<h1>{{ page.title }}</h1>
+
 <div class='post'>
 If you run a cron job every day, you're likely fed up of all the email you get from it.<br />Here's how I run a cronjob and only have it output stuff once a month, that's a lot easier to check every now and again. You can change the day of the month that you get the email over various cron jobs so you only have something to check every now and again (not a bunch of stuff on the first of the month). No need for anything special in your crontab.<br />#!/bin/sh<br /><br /><br /># On the first of the month run with debug output so we can check it.<br />if [ $(date +%d) = "1" ]; then<br />&nbsp;&nbsp;set -e -x<br />else<br />&nbsp;&nbsp;exec 2&gt;&amp;1 &gt;/dev/null<br />fi<br /><div><br /></div><div># Do what you normally would do here....</div></div>
 <h2>Comments</h2>
