@@ -1,0 +1,15 @@
+<p class="separator">Subscribe</p>
+<li><a href="{{ site.rss }}">RSS</a> (<a href="http://feedly.com/#subscription%2Ffeed%2F{{ site.rss_url_escape }}">Feedly</a>)</li>
+<li>
+  <form action="https://feedburner.google.com/fb/a/mailverify"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=arkstechblog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+    <input placeholder="Email Address"
+           type="text"
+           style="width:100%"
+           name="email"/>
+    <input type="hidden" value="arkstechblog" name="uri"/>
+    <input type="hidden" name="loc" value="en_US"/>
+  </form>
+</li>
