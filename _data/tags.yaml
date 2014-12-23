@@ -50,6 +50,7 @@
   - {title: Previous and Next links on posts, url: /2009/11/previous-and-next-links-on-posts.php}
   - {title: sftp in a chroot environment, url: /2009/12/sftp-in-chroot-environment.php}
   - {title: notes from moving to blogger custom domains, url: /2010/02/notes-from-moving-to-blogger-custom.html}
+  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   slug: blogger
   url: /search/label/blogger.html
 - name: bookmarks
@@ -255,6 +256,16 @@
   - {title: "Finding the cause of \u201CUnknown provider\u201D errors", url: /2014/08/finding-cause-of-unknown-provider-errors.html}
   slug: javascript
   url: /search/label/javascript.html
+- name: jekyll
+  posts:
+  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
+  slug: jekyll
+  url: /search/label/jekyll.html
+- name: labels
+  posts:
+  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
+  slug: labels
+  url: /search/label/labels.html
 - name: linux
   posts:
   - {title: There go my nines, url: /2007/07/there-go-my-nines.php}
@@ -278,6 +289,11 @@
   - {title: battling fglrx, url: /2009/01/battling-fglrx.php}
   slug: lirc
   url: /search/label/lirc.html
+- name: livejs
+  posts:
+  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
+  slug: livejs
+  url: /search/label/livejs.html
 - name: mac
   posts:
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
@@ -301,6 +317,11 @@
   - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
   slug: make
   url: /search/label/make.html
+- name: markdown
+  posts:
+  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
+  slug: markdown
+  url: /search/label/markdown.html
 - name: mp3
   posts:
   - {title: Car Audio, url: /2008/05/car-audio.php}
@@ -352,6 +373,7 @@
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   - {title: Snippy Urls in App Engine, url: /2010/04/snippy-urls-in-app-engine.html}
   - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
+  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   slug: python
   url: /search/label/python.html
 - name: reader

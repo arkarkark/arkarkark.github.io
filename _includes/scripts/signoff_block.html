@@ -4,7 +4,7 @@
       {{ page.date |  date: "%A %-d %B %Y" }}
     </i>
     {% if site.owner.twitter %}
-    by <a href="https://twitter.com/{{ site.owner.twitter }}">@{{site.owner.twitter}}</a>
+    by <a href="https://twitter.com/{{ site.owner.twitter }}">@{{ site.owner.twitter }}</a>
     {% endif %}
     <a class="pull-right" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via={{ site.owner.twitter }}" target="_blank">
       <i class="fa fa-retweet"></i> Share

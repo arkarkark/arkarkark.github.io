@@ -8,7 +8,7 @@ layout: default
     		<div class="postlist-meta">
     			Posted
                 {% if site.owner.name %}
-                by {{site.owner.name}},
+                by {{ site.owner.name }},
                 {% endif %}
     			<time class="timeago" datetime="{{ page.date }}">{{ page.date |  date: "%A %-d %B %Y" }}</time>,
     		</div>

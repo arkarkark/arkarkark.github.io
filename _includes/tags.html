@@ -2,7 +2,7 @@
   <ul>
   {% for tag in site.data.tags %}
     <li>
-      <a href="{{tag.url}}">{{tag.name}}</a> ({{ tag.posts.size }})</li>
+      <a href="{{ tag.url }}">{{ tag.name }}</a> ({{ tag.posts.size }})</li>
     </span>
   {% endfor %}
   </ul>

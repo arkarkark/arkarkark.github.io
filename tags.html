@@ -23,7 +23,7 @@ title: Tags
             {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
             <li>
                 <span class="leaders-left">{{ site.tags[this_word].size }}</span>
-                <a class="leaders-right dropdown-tags" data-for="#tag-pages{{item}}">
+                <a class="leaders-right dropdown-tags" data-for="#tag-pages{{ item }}">
                     <strong>
                         {{ this_word }}
                     </strong>
@@ -32,7 +32,7 @@ title: Tags
             </li>
             <ul class="tags-contaier tags">
                 {% for post in site.tags[this_word] %}{% if post.title != null %}
-                <li class="tag-pages" id="tag-pages{{item}}">
+                <li class="tag-pages" id="tag-pages{{ item }}">
                     <span class="entry-date leaders-left">
                         <time class="timeago" datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%A %-d %B %Y" }}</time>
                     </span>
@@ -47,4 +47,3 @@ title: Tags
 <script>
     {% include scripts/tags.html %}
 </script>
-
