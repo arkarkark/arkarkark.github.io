@@ -29,6 +29,11 @@
   - {title: emacs on osx, url: /2014/07/emacs-on-osx.html}
   slug: apple
   url: /search/label/apple.html
+- name: apps script
+  posts:
+  - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
+  slug: apps script
+  url: /search/label/apps script.html
 - name: atom
   posts:
   - {title: more private feeds, url: /2010/02/more-private-feeds.html}
@@ -171,8 +176,14 @@
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
+  - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
   slug: github
   url: /search/label/github.html
+- name: gmail
+  posts:
+  - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
+  slug: gmail
+  url: /search/label/gmail.html
 - name: gnumake
   posts:
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
@@ -264,6 +275,7 @@
 - name: labels
   posts:
   - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
+  - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
   slug: labels
   url: /search/label/labels.html
 - name: linux
