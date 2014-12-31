@@ -24,11 +24,17 @@
   - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
   - {title: xauth on snow leopard x11 xquartz, url: /2010/06/xauth-on-snow-leopard-x11-xquartz.html}
   - {title: mac setup, url: /2011/05/mac-setup.html}
+  - {title: mac setup, url: /2011/05/mac-setup.html}
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
-  - {title: iOS Apps, url: /2014/06/ios-apps.html}
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: emacs on osx, url: /2014/07/emacs-on-osx.html}
   slug: apple
   url: /search/label/apple.html
+- name: apps
+  posts:
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  slug: apps
+  url: /search/label/apps.html
 - name: apps script
   posts:
   - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
@@ -248,6 +254,16 @@
   - {title: Shutup Jaiku, url: /2008/05/shutup-jaiku.php}
   slug: im
   url: /search/label/im.html
+- name: iod
+  posts:
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  slug: iod
+  url: /search/label/iod.html
+- name: iphone
+  posts:
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  slug: iphone
+  url: /search/label/iphone.html
 - name: isp
   posts:
   - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
@@ -260,6 +276,11 @@
   - {title: iPhone, url: /2008/08/iphone.php}
   slug: itunes
   url: /search/label/itunes.html
+- name: jailbreak
+  posts:
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  slug: jailbreak
+  url: /search/label/jailbreak.html
 - name: javascript
   posts:
   - {title: fixlinks, url: /2007/08/fixlinks.php}
@@ -420,6 +441,7 @@
   url: /search/label/search.html
 - name: setup
   posts:
+  - {title: mac setup, url: /2011/05/mac-setup.html}
   - {title: mac setup, url: /2011/05/mac-setup.html}
   slug: setup
   url: /search/label/setup.html
