@@ -9,6 +9,8 @@ tags:
 title: Android Apps
 ---
 
+Last Updated: "Sun Jan  4 02:39:30 PST 2015"
+
 I think I might be going back to try Android again. I'm publishing this now. I'll try and keep it updated.
 
 ![androidHome right](/assets/images/androidHome.png)

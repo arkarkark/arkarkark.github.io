@@ -10,6 +10,8 @@ tags:
 title: Favorite Chrome Extensions
 ---
 
+Last Updated: "Sun Jan  4 02:37:13 PST 2015"
+
 #### Privacy and Browsing
 
 * [AdBlock Plus](https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb)
@@ -52,3 +54,5 @@ title: Favorite Chrome Extensions
 * Ghostery - adblockplus seems to do all this too. too many annoying upgrade popups.
 
 I'm starting to think about turning off auto update for all the extensions that require all my data on all websites. Then I'll audit them to work out if I trust them or not. But it's a lot of work. I guess I can turn off auto update by editing the update_url in each extension's manifest.json.
+
+This page has a short url: [http://wtwf.com/chrome](http://wtwf.com/chrome)
