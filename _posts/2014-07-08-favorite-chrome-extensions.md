@@ -10,7 +10,7 @@ tags:
 title: Favorite Chrome Extensions
 ---
 
-Last Updated: "Sun Jan  4 02:37:13 PST 2015"
+Last Updated: "Sun Jan  4 02:40:38 PST 2015"
 
 #### Privacy and Browsing
 

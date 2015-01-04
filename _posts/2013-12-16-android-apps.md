@@ -9,7 +9,7 @@ tags:
 title: Android Apps
 ---
 
-Last Updated: "Sun Jan  4 02:39:30 PST 2015"
+Last Updated: "Sun Jan  4 02:41:29 PST 2015"
 
 I think I might be going back to try Android again. I'm publishing this now. I'll try and keep it updated.
 
@@ -81,3 +81,5 @@ Things I didn't like:
 * [Jay's Headset Control](https://market.android.com/details?id=se.jays.headsetcontrol) - I might go back to this haven't quite needed it yet.
 * [Headset Droid](https://market.android.com/details?id=tvk.headvol#?t=W251bGwsMSwxLDUwMSwidHZrLmhlYWR2b2wiXQ..) - even though it has contacts permission
 * [My-Cast weather](https://play.google.com/store/apps/details?id=com.digcy.mycast.full) - temps and % chance of rain (wunderground is better)
+
+This page has a short url: [http://wtwf.com/android](http://wtwf.com/android)
