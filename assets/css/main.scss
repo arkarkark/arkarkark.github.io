@@ -16,3 +16,7 @@ $lnk-highlight-color: #333;
 @import "bootstrap.min";
 // fontawesome icons
 @import "font-awesome.min";
+
+img[alt*=right] {
+  float: right;
+}
