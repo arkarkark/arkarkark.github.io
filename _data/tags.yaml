@@ -1,6 +1,8 @@
 - name: android
   posts:
   - {title: Android Apps, url: /2013/12/android-apps.html}
+  - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
+  - {title: Android Apps, url: /2013/12/android-apps.html}
   slug: android
   url: /search/label/android.html
 - name: angular
@@ -24,14 +26,18 @@
   - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
   - {title: xauth on snow leopard x11 xquartz, url: /2010/06/xauth-on-snow-leopard-x11-xquartz.html}
   - {title: mac setup, url: /2011/05/mac-setup.html}
-  - {title: mac setup, url: /2011/05/mac-setup.html}
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: emacs on osx, url: /2014/07/emacs-on-osx.html}
+  - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  - {title: mac setup, url: /2011/05/mac-setup.html}
   slug: apple
   url: /search/label/apple.html
 - name: apps
   posts:
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   slug: apps
   url: /search/label/apps.html
@@ -89,6 +95,7 @@
   - {title: How to create direct links to Chrome Remote Desktop connections, url: /2014/07/how-to-create-direct-links-to-chrome.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
+  - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   slug: chrome
   url: /search/label/chrome.html
 - name: coffeescript
@@ -120,6 +127,7 @@
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
+  - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   slug: development
   url: /search/label/development.html
 - name: diy
@@ -224,6 +232,7 @@
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
+  - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   slug: greasemonkey
   url: /search/label/greasemonkey.html
 - name: ham
@@ -254,13 +263,17 @@
   - {title: Shutup Jaiku, url: /2008/05/shutup-jaiku.php}
   slug: im
   url: /search/label/im.html
-- name: iod
+- name: ios
   posts:
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
-  slug: iod
-  url: /search/label/iod.html
+  - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  slug: ios
+  url: /search/label/ios.html
 - name: iphone
   posts:
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   slug: iphone
   url: /search/label/iphone.html
@@ -278,6 +291,8 @@
   url: /search/label/itunes.html
 - name: jailbreak
   posts:
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   slug: jailbreak
   url: /search/label/jailbreak.html
@@ -382,6 +397,7 @@
 - name: phone
   posts:
   - {title: Android Apps, url: /2013/12/android-apps.html}
+  - {title: Android Apps, url: /2013/12/android-apps.html}
   slug: phone
   url: /search/label/phone.html
 - name: picasaweb
@@ -399,6 +415,7 @@
 - name: privacy
   posts:
   - {title: more private feeds, url: /2010/02/more-private-feeds.html}
+  - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
   slug: privacy
   url: /search/label/privacy.html
 - name: python
