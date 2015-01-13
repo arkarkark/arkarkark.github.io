@@ -51,6 +51,11 @@
   - {title: more private feeds, url: /2010/02/more-private-feeds.html}
   slug: atom
   url: /search/label/atom.html
+- name: authy
+  posts:
+  - {title: Authy Window Size, url: /2015/01/authy-window-size.html}
+  slug: authy
+  url: /search/label/authy.html
 - name: bash
   posts:
   - {title: control-w deleting word in bash, url: /2009/04/control-w-deleting-word-in-bash.php}
@@ -95,6 +100,7 @@
   - {title: How to create direct links to Chrome Remote Desktop connections, url: /2014/07/how-to-create-direct-links-to-chrome.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
+  - {title: Authy Window Size, url: /2015/01/authy-window-size.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   slug: chrome
   url: /search/label/chrome.html
@@ -156,6 +162,11 @@
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: emacs
   url: /search/label/emacs.html
+- name: extension
+  posts:
+  - {title: Authy Window Size, url: /2015/01/authy-window-size.html}
+  slug: extension
+  url: /search/label/extension.html
 - name: facebook
   posts:
   - {title: Find which of your friends like something on Facebook, url: /2012/10/find-which-of-your-friends-like.html}
