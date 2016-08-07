@@ -101,6 +101,7 @@
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   - {title: Authy Window Size, url: /2015/01/authy-window-size.html}
+  - {title: Chrome Web Store Data and Privacy Policy, url: /2016/08/data-policy.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   slug: chrome
   url: /search/label/chrome.html
@@ -167,6 +168,11 @@
   - {title: Authy Window Size, url: /2015/01/authy-window-size.html}
   slug: extension
   url: /search/label/extension.html
+- name: extensions
+  posts:
+  - {title: Chrome Web Store Data and Privacy Policy, url: /2016/08/data-policy.html}
+  slug: extensions
+  url: /search/label/extensions.html
 - name: facebook
   posts:
   - {title: Find which of your friends like something on Facebook, url: /2012/10/find-which-of-your-friends-like.html}
