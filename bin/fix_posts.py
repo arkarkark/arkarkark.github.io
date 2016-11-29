@@ -223,7 +223,7 @@ permalink: %(url)s
 
   tags = open('_data/tags.yaml', 'w')
 
-  logging.info(posts.keys())
+  logging.info(sorted(posts.keys()))
 
   for label in labels:
     base = os.path.join(LABELS_DIR, label)

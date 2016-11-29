@@ -15,6 +15,7 @@
   - {title: more private feeds, url: /2010/02/more-private-feeds.html}
   - {title: Snippy Urls in App Engine, url: /2010/04/snippy-urls-in-app-engine.html}
   - {title: adding suggest passthrough to snippy, url: /2010/05/adding-suggest-passthrough-to-snippy.html}
+  - {title: App Engine https, url: /2016/11/appengine-https.html}
   slug: appengine
   url: /search/label/appengine.html
 - name: apple
@@ -274,6 +275,11 @@
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   slug: htpc
   url: /search/label/htpc.html
+- name: https
+  posts:
+  - {title: App Engine https, url: /2016/11/appengine-https.html}
+  slug: https
+  url: /search/label/https.html
 - name: im
   posts:
   - {title: Jaiku, url: /2008/05/jaiku.php}
