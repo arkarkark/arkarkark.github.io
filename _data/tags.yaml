@@ -15,6 +15,7 @@
   - {title: more private feeds, url: /2010/02/more-private-feeds.html}
   - {title: Snippy Urls in App Engine, url: /2010/04/snippy-urls-in-app-engine.html}
   - {title: adding suggest passthrough to snippy, url: /2010/05/adding-suggest-passthrough-to-snippy.html}
+  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
   slug: appengine
   url: /search/label/appengine.html
 - name: apple
@@ -128,6 +129,11 @@
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: cson
   url: /search/label/cson.html
+- name: datastore
+  posts:
+  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
+  slug: datastore
+  url: /search/label/datastore.html
 - name: development
   posts:
   - {title: levels of development of my stuff, url: /2010/03/levels-of-development-of-my-stuff.html}
@@ -400,6 +406,11 @@
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   slug: mysql
   url: /search/label/mysql.html
+- name: oauth
+  posts:
+  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
+  slug: oauth
+  url: /search/label/oauth.html
 - name: obsolete
   posts:
   - {title: snippy urls, url: /2006/08/snippy-urls.php}
@@ -441,6 +452,7 @@
   - {title: Snippy Urls in App Engine, url: /2010/04/snippy-urls-in-app-engine.html}
   - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
   - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
+  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
   slug: python
   url: /search/label/python.html
 - name: reader
