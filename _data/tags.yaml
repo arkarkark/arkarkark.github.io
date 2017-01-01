@@ -15,8 +15,8 @@
   - {title: more private feeds, url: /2010/02/more-private-feeds.html}
   - {title: Snippy Urls in App Engine, url: /2010/04/snippy-urls-in-app-engine.html}
   - {title: adding suggest passthrough to snippy, url: /2010/05/adding-suggest-passthrough-to-snippy.html}
-  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
   - {title: App Engine https, url: /2016/11/appengine-https.html}
+  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
   slug: appengine
   url: /search/label/appengine.html
 - name: apple
