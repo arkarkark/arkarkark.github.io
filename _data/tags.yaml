@@ -63,6 +63,11 @@
   - {title: control-w deleting word in bash, url: /2009/04/control-w-deleting-word-in-bash.php}
   slug: bash
   url: /search/label/bash.html
+- name: bike
+  posts:
+  - {title: Bike Wheel Lights, url: /2016/12/bike-wheel-lights.html}
+  slug: bike
+  url: /search/label/bike.html
 - name: blogger
   posts:
   - {title: Dragging images around the intertubes, url: /2007/03/dragging-images-around-intertubes.php}
@@ -292,6 +297,11 @@
   - {title: Shutup Jaiku, url: /2008/05/shutup-jaiku.php}
   slug: im
   url: /search/label/im.html
+- name: imagemagick
+  posts:
+  - {title: Bike Wheel Lights, url: /2016/12/bike-wheel-lights.html}
+  slug: imagemagick
+  url: /search/label/imagemagick.html
 - name: ios
   posts:
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
@@ -343,6 +353,11 @@
   - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
   slug: labels
   url: /search/label/labels.html
+- name: lights
+  posts:
+  - {title: Bike Wheel Lights, url: /2016/12/bike-wheel-lights.html}
+  slug: lights
+  url: /search/label/lights.html
 - name: linux
   posts:
   - {title: There go my nines, url: /2007/07/there-go-my-nines.php}
