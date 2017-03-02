@@ -19,11 +19,11 @@ It was as easy as:
 
 ```bash
 brew uninstall emacs
-rm -rf /Library/Caches/Homebrew/emacs--git
-brew install emacs --HEAD --use-git-head --with-cocoa --with-gnutls --with-rsvg --with-imagemagick
+rm -rf ~/Library/Caches/Homebrew/emacs*
+brew install emacs --with-cocoa --with-gnutls --with-rsvg --with-imagemagick
 ```
 
-I removed the emacs--git directory because if I didn't I kept getting `RPC failed; result=52, HTTP code = 0` errors.
+I removed the Caches directory because if I didn't I kept getting `RPC failed; result=52, HTTP code = 0` errors.
 
 I wanted to note that to run the GUI app I ran:
 
