@@ -2,6 +2,7 @@
   posts:
   - {title: Android Apps, url: /2013/12/android-apps.html}
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
+  - {title: Fixing a 2012 Nexus 7, url: /2017/05/nexus-7.html}
   - {title: Android Apps, url: /2013/12/android-apps.html}
   slug: android
   url: /search/label/android.html
@@ -427,6 +428,11 @@
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   slug: mysql
   url: /search/label/mysql.html
+- name: nexus7
+  posts:
+  - {title: Fixing a 2012 Nexus 7, url: /2017/05/nexus-7.html}
+  slug: nexus7
+  url: /search/label/nexus7.html
 - name: oauth
   posts:
   - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
