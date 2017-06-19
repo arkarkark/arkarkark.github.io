@@ -270,6 +270,11 @@
   - {title: I have a Ham radio blog, url: /2009/06/i-have-ham-radio-blog.php}
   slug: ham
   url: /search/label/ham.html
+- name: home
+  posts:
+  - {title: Fizzy Water, url: /2017/06/fizzy-water.html}
+  slug: home
+  url: /search/label/home.html
 - name: hosting
   posts:
   - {title: There go my nines, url: /2007/07/there-go-my-nines.php}
