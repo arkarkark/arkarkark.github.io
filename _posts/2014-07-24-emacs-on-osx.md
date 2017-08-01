@@ -31,4 +31,4 @@ I wanted to note that to run the GUI app I ran:
 open /usr/local/Cellar/emacs/HEAD/Emacs.app
 ```
 
-Then I selected keep in dock from the icon. I have no idea how bad it is to run it out of Cellar but it's working. Let me know if I'm doing something wrong.
+Then I selected keep in dock from the icon. I have no idea how bad it is to run it out of Cellar but it's working. Let me know if I'm doing something wrong. I had tried linkapp
