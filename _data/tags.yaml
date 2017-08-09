@@ -2,6 +2,7 @@
   posts:
   - {title: Android Apps, url: /2013/12/android-apps.html}
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
+  - {title: Fixing a 2012 Nexus 7, url: /2017/05/nexus-7.html}
   - {title: Android Apps, url: /2013/12/android-apps.html}
   slug: android
   url: /search/label/android.html
@@ -269,6 +270,11 @@
   - {title: I have a Ham radio blog, url: /2009/06/i-have-ham-radio-blog.php}
   slug: ham
   url: /search/label/ham.html
+- name: home
+  posts:
+  - {title: Fizzy Water, url: /2017/06/fizzy-water.html}
+  slug: home
+  url: /search/label/home.html
 - name: hosting
   posts:
   - {title: There go my nines, url: /2007/07/there-go-my-nines.php}
@@ -427,6 +433,11 @@
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   slug: mysql
   url: /search/label/mysql.html
+- name: nexus7
+  posts:
+  - {title: Fixing a 2012 Nexus 7, url: /2017/05/nexus-7.html}
+  slug: nexus7
+  url: /search/label/nexus7.html
 - name: oauth
   posts:
   - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
@@ -474,6 +485,7 @@
   - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
   - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
+  - {title: Closest Color in a list of json colors, url: /2017/07/closest-color.html}
   slug: python
   url: /search/label/python.html
 - name: reader
