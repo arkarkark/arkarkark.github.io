@@ -1,8 +1,8 @@
 - name: android
   posts:
+  - {title: Fixing a 2012 Nexus 7, url: /2017/05/nexus-7.html}
   - {title: Android Apps, url: /2013/12/android-apps.html}
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
-  - {title: Fixing a 2012 Nexus 7, url: /2017/05/nexus-7.html}
   - {title: Android Apps, url: /2013/12/android-apps.html}
   slug: android
   url: /search/label/android.html
@@ -13,34 +13,36 @@
   url: /search/label/angular.html
 - name: appengine
   posts:
-  - {title: more private feeds, url: /2010/02/more-private-feeds.html}
   - {title: Snippy Urls in App Engine, url: /2010/04/snippy-urls-in-app-engine.html}
+  - {title: more private feeds, url: /2010/02/more-private-feeds.html}
+  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
   - {title: adding suggest passthrough to snippy, url: /2010/05/adding-suggest-passthrough-to-snippy.html}
   - {title: App Engine https, url: /2016/11/appengine-https.html}
-  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
   slug: appengine
   url: /search/label/appengine.html
 - name: apple
   posts:
-  - {title: iPhone, url: /2008/08/iphone.php}
-  - {title: 'mac: turning off sound at night', url: /2009/02/mac-turning-off-sound-at-night.php}
-  - {title: Google Buzz Icon, url: /2010/02/google-buzz-icon.html}
   - {title: Copy and paste between X11 and other apps on Mac, url: /2010/03/copy-and-paste-between-x11-and-other.html}
-  - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
+  - {title: merging iPhoto and Photos albums into one big thing and deduping them,
+    url: 2017/10/25/merging-photos-libraries.html}
   - {title: xauth on snow leopard x11 xquartz, url: /2010/06/xauth-on-snow-leopard-x11-xquartz.html}
   - {title: mac setup, url: /2011/05/mac-setup.html}
-  - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
-  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
-  - {title: emacs on osx, url: /2014/07/emacs-on-osx.html}
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  - {title: 'mac: turning off sound at night', url: /2009/02/mac-turning-off-sound-at-night.php}
+  - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
+  - {title: emacs on osx, url: /2014/07/emacs-on-osx.html}
   - {title: mac setup, url: /2011/05/mac-setup.html}
+  - {title: Google Buzz Icon, url: /2010/02/google-buzz-icon.html}
+  - {title: iPhone, url: /2008/08/iphone.php}
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
+  - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
   slug: apple
   url: /search/label/apple.html
 - name: apps
   posts:
-  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   slug: apps
   url: /search/label/apps.html
@@ -71,16 +73,16 @@
   url: /search/label/bike.html
 - name: blogger
   posts:
-  - {title: Dragging images around the intertubes, url: /2007/03/dragging-images-around-intertubes.php}
-  - {title: Fix Blogger Post Greasemonkey Script, url: /2007/06/fix-blogger-post-greasemonkey-script.php}
-  - {title: feedFixer, url: /2008/04/feedfixer.php}
-  - {title: Password protecting your site, url: /2008/04/password-protecting-your-site.php}
   - {title: Jaiku, url: /2008/05/jaiku.php}
-  - {title: Shutup Jaiku, url: /2008/05/shutup-jaiku.php}
   - {title: Previous and Next links on posts, url: /2009/11/previous-and-next-links-on-posts.php}
   - {title: sftp in a chroot environment, url: /2009/12/sftp-in-chroot-environment.php}
   - {title: notes from moving to blogger custom domains, url: /2010/02/notes-from-moving-to-blogger-custom.html}
+  - {title: Password protecting your site, url: /2008/04/password-protecting-your-site.php}
+  - {title: feedFixer, url: /2008/04/feedfixer.php}
   - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
+  - {title: Fix Blogger Post Greasemonkey Script, url: /2007/06/fix-blogger-post-greasemonkey-script.php}
+  - {title: Dragging images around the intertubes, url: /2007/03/dragging-images-around-intertubes.php}
+  - {title: Shutup Jaiku, url: /2008/05/shutup-jaiku.php}
   slug: blogger
   url: /search/label/blogger.html
 - name: bookmarks
@@ -102,15 +104,15 @@
 - name: chrome
   posts:
   - {title: my first google chrome extension, url: /2009/11/my-first-google-chrome-extension.php}
-  - {title: getting google buzz on your desktop, url: /2010/02/getting-google-buzz-on-your-desktop.html}
-  - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
-  - {title: How to create direct links to Chrome Remote Desktop connections, url: /2014/07/how-to-create-direct-links-to-chrome.html}
+  - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
+  - {title: Chrome Web Store Data and Privacy Policy, url: /2016/08/data-policy.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
+  - {title: getting google buzz on your desktop, url: /2010/02/getting-google-buzz-on-your-desktop.html}
+  - {title: How to create direct links to Chrome Remote Desktop connections, url: /2014/07/how-to-create-direct-links-to-chrome.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   - {title: Authy Window Size, url: /2015/01/authy-window-size.html}
-  - {title: Chrome Web Store Data and Privacy Policy, url: /2016/08/data-policy.html}
-  - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   slug: chrome
   url: /search/label/chrome.html
 - name: coffeescript
@@ -145,9 +147,9 @@
   posts:
   - {title: levels of development of my stuff, url: /2010/03/levels-of-development-of-my-stuff.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
+  - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
-  - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   slug: development
   url: /search/label/development.html
 - name: diy
@@ -169,11 +171,11 @@
   url: /search/label/domain.html
 - name: emacs
   posts:
-  - {title: 'xterms, gnu screen and emacs and control cursor keys', url: /2008/10/xterms-gnu-screen-and-emacs-and-control.php}
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
-  - {title: emacs on osx, url: /2014/07/emacs-on-osx.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: emacs on osx, url: /2014/07/emacs-on-osx.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
+  - {title: 'xterms, gnu screen and emacs and control cursor keys', url: /2008/10/xterms-gnu-screen-and-emacs-and-control.php}
   slug: emacs
   url: /search/label/emacs.html
 - name: extension
@@ -199,9 +201,9 @@
   url: /search/label/fglrx.html
 - name: firefox
   posts:
-  - {title: snippy urls, url: /2006/08/snippy-urls.php}
   - {title: preview feeds in google reader, url: /2007/11/preview-feeds-in-google-reader.php}
   - {title: 'My last greasemonkey script: blog picasa images', url: /2009/11/my-last-greasemonkey-script-blog-picasa.php}
+  - {title: snippy urls, url: /2006/08/snippy-urls.php}
   slug: firefox
   url: /search/label/firefox.html
 - name: gafyd
@@ -211,16 +213,16 @@
   url: /search/label/gafyd.html
 - name: git
   posts:
-  - {title: git diff on a mac using tkdiff, url: /2014/06/git-diff-on-mac-using-tkdiff.html}
   - {title: a bit a git, url: /2014/06/a-bit-git.html}
+  - {title: git diff on a mac using tkdiff, url: /2014/06/git-diff-on-mac-using-tkdiff.html}
   slug: git
   url: /search/label/git.html
 - name: github
   posts:
+  - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
+  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
-  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
-  - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
   slug: github
   url: /search/label/github.html
 - name: gmail
@@ -235,34 +237,34 @@
   url: /search/label/gnumake.html
 - name: google
   posts:
-  - {title: Inject gaim logs into gmail, url: /2006/02/inject-gaim-logs-into-gmail.php}
+  - {title: more private feeds, url: /2010/02/more-private-feeds.html}
+  - {title: my first google chrome extension, url: /2009/11/my-first-google-chrome-extension.php}
   - {title: Changing email address, url: /2006/12/changing-email-address.php}
-  - {title: Public Google Bookmarks Feeds, url: /2007/07/public-google-bookmarks-feeds.php}
-  - {title: picasaweb album size and density, url: /2008/02/picasaweb-album-size-and-density.php}
-  - {title: Archving things on the web, url: /2008/04/archving-things-on-web.php}
-  - {title: feedFixer, url: /2008/04/feedfixer.php}
-  - {title: Search Results, url: /2008/04/search-results.php}
   - {title: Download Picasa Web Album, url: /2008/05/download-picasa-web-album.php}
   - {title: Moving to google code, url: /2008/06/moving-to-google-code.php}
-  - {title: iPhone, url: /2008/08/iphone.php}
   - {title: Mailman and Google Apps For Your Domain conflict, url: /2009/11/mailman-and-google-apps-for-your-domain.php}
-  - {title: my first google chrome extension, url: /2009/11/my-first-google-chrome-extension.php}
-  - {title: getting google buzz on your desktop, url: /2010/02/getting-google-buzz-on-your-desktop.html}
-  - {title: more private feeds, url: /2010/02/more-private-feeds.html}
-  - {title: Google Buzz Icon, url: /2010/02/google-buzz-icon.html}
-  - {title: How to transfer a domain away from godaddy, url: /2011/12/how-to-transfer-domain-away-from.html}
+  - {title: picasaweb album size and density, url: /2008/02/picasaweb-album-size-and-density.php}
   - {title: How to delete posts from Google Reader, url: /2012/01/how-to-delete-posts-from-google-reader.html}
+  - {title: feedFixer, url: /2008/04/feedfixer.php}
+  - {title: Archving things on the web, url: /2008/04/archving-things-on-web.php}
+  - {title: Inject gaim logs into gmail, url: /2006/02/inject-gaim-logs-into-gmail.php}
+  - {title: Public Google Bookmarks Feeds, url: /2007/07/public-google-bookmarks-feeds.php}
+  - {title: getting google buzz on your desktop, url: /2010/02/getting-google-buzz-on-your-desktop.html}
+  - {title: Search Results, url: /2008/04/search-results.php}
+  - {title: Google Buzz Icon, url: /2010/02/google-buzz-icon.html}
+  - {title: iPhone, url: /2008/08/iphone.php}
+  - {title: How to transfer a domain away from godaddy, url: /2011/12/how-to-transfer-domain-away-from.html}
   slug: google
   url: /search/label/google.html
 - name: greasemonkey
   posts:
-  - {title: Fix Blogger Post Greasemonkey Script, url: /2007/06/fix-blogger-post-greasemonkey-script.php}
   - {title: 'My last greasemonkey script: blog picasa images', url: /2009/11/my-last-greasemonkey-script-blog-picasa.php}
-  - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
+  - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
+  - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
+  - {title: Fix Blogger Post Greasemonkey Script, url: /2007/06/fix-blogger-post-greasemonkey-script.php}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
-  - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   slug: greasemonkey
   url: /search/label/greasemonkey.html
 - name: ham
@@ -277,13 +279,13 @@
   url: /search/label/home.html
 - name: hosting
   posts:
-  - {title: There go my nines, url: /2007/07/there-go-my-nines.php}
+  - {title: a new server, url: /2008/11/new-server.php}
+  - {title: Moving to google code, url: /2008/06/moving-to-google-code.php}
+  - {title: another new server, url: /2008/12/another-new-server.php}
   - {title: Anonymous mailman lists, url: /2008/03/anonymous-mailman-lists.php}
   - {title: unwelcome user agents, url: /2008/04/unwelcome-user-agents.php}
   - {title: Shutup Jaiku, url: /2008/05/shutup-jaiku.php}
-  - {title: Moving to google code, url: /2008/06/moving-to-google-code.php}
-  - {title: a new server, url: /2008/11/new-server.php}
-  - {title: another new server, url: /2008/12/another-new-server.php}
+  - {title: There go my nines, url: /2007/07/there-go-my-nines.php}
   slug: hosting
   url: /search/label/hosting.html
 - name: htpc
@@ -310,22 +312,22 @@
   url: /search/label/imagemagick.html
 - name: ios
   posts:
-  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   slug: ios
   url: /search/label/ios.html
 - name: iphone
   posts:
-  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   slug: iphone
   url: /search/label/iphone.html
 - name: isp
   posts:
-  - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
   - {title: How to transfer a domain away from godaddy, url: /2011/12/how-to-transfer-domain-away-from.html}
+  - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
   slug: isp
   url: /search/label/isp.html
 - name: itunes
@@ -336,15 +338,15 @@
   url: /search/label/itunes.html
 - name: jailbreak
   posts:
-  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
+  - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   slug: jailbreak
   url: /search/label/jailbreak.html
 - name: javascript
   posts:
-  - {title: fixlinks, url: /2007/08/fixlinks.php}
   - {title: 'CoffeeScript ?= and ||=', url: /2014/07/coffeescript-and.html}
+  - {title: fixlinks, url: /2007/08/fixlinks.php}
   - {title: "Finding the cause of \u201CUnknown provider\u201D errors", url: /2014/08/finding-cause-of-unknown-provider-errors.html}
   slug: javascript
   url: /search/label/javascript.html
@@ -355,8 +357,8 @@
   url: /search/label/jekyll.html
 - name: labels
   posts:
-  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
+  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   slug: labels
   url: /search/label/labels.html
 - name: lights
@@ -366,20 +368,20 @@
   url: /search/label/lights.html
 - name: linux
   posts:
-  - {title: There go my nines, url: /2007/07/there-go-my-nines.php}
-  - {title: Anonymous mailman lists, url: /2008/03/anonymous-mailman-lists.php}
   - {title: a new server, url: /2008/11/new-server.php}
-  - {title: another new server, url: /2008/12/another-new-server.php}
-  - {title: 'zoneminder, bt878 based video capture card and ubuntu hardy', url: /2008/12/zoneminder-bt878-based-video-capture.php}
-  - {title: TV Out working with a cheap ATI X1050 card, url: /2008/12/tv-out-working-with-cheap-ati-x1050.php}
-  - {title: Filling up a 1.5 TB hard drive, url: /2009/01/filling-up-15-tb-hard-drive.php}
-  - {title: battling fglrx, url: /2009/01/battling-fglrx.php}
-  - {title: control-w deleting word in bash, url: /2009/04/control-w-deleting-word-in-bash.php}
   - {title: sftp in a chroot environment, url: /2009/12/sftp-in-chroot-environment.php}
+  - {title: control-w deleting word in bash, url: /2009/04/control-w-deleting-word-in-bash.php}
+  - {title: battling fglrx, url: /2009/01/battling-fglrx.php}
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
-  - {title: Check the output of cronjobs every month, url: /2010/05/check-output-of-cronjobs-every-month.html}
   - {title: xauth on snow leopard x11 xquartz, url: /2010/06/xauth-on-snow-leopard-x11-xquartz.html}
+  - {title: Filling up a 1.5 TB hard drive, url: /2009/01/filling-up-15-tb-hard-drive.php}
+  - {title: another new server, url: /2008/12/another-new-server.php}
+  - {title: Anonymous mailman lists, url: /2008/03/anonymous-mailman-lists.php}
+  - {title: 'zoneminder, bt878 based video capture card and ubuntu hardy', url: /2008/12/zoneminder-bt878-based-video-capture.php}
   - {title: linux screen capture to picasaweb, url: /2011/03/linux-screen-capture-to-picasaweb.html}
+  - {title: Check the output of cronjobs every month, url: /2010/05/check-output-of-cronjobs-every-month.html}
+  - {title: There go my nines, url: /2007/07/there-go-my-nines.php}
+  - {title: TV Out working with a cheap ATI X1050 card, url: /2008/12/tv-out-working-with-cheap-ati-x1050.php}
   slug: linux
   url: /search/label/linux.html
 - name: lirc
@@ -399,10 +401,10 @@
   url: /search/label/mac.html
 - name: mail
   posts:
-  - {title: Inject gaim logs into gmail, url: /2006/02/inject-gaim-logs-into-gmail.php}
   - {title: Changing email address, url: /2006/12/changing-email-address.php}
-  - {title: Anonymous mailman lists, url: /2008/03/anonymous-mailman-lists.php}
   - {title: Mailman and Google Apps For Your Domain conflict, url: /2009/11/mailman-and-google-apps-for-your-domain.php}
+  - {title: Anonymous mailman lists, url: /2008/03/anonymous-mailman-lists.php}
+  - {title: Inject gaim logs into gmail, url: /2006/02/inject-gaim-logs-into-gmail.php}
   slug: mail
   url: /search/label/mail.html
 - name: mailman
@@ -428,9 +430,9 @@
   url: /search/label/mp3.html
 - name: mysql
   posts:
-  - {title: iTunes to MySQL, url: /2006/03/itunes-to-mysql_05.php}
   - {title: MySQL select optimization, url: /2006/04/mysql-select-optimization.php}
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
+  - {title: iTunes to MySQL, url: /2006/03/itunes-to-mysql_05.php}
   slug: mysql
   url: /search/label/mysql.html
 - name: nexus7
@@ -445,8 +447,8 @@
   url: /search/label/oauth.html
 - name: obsolete
   posts:
-  - {title: snippy urls, url: /2006/08/snippy-urls.php}
   - {title: sftp in a chroot environment, url: /2009/12/sftp-in-chroot-environment.php}
+  - {title: snippy urls, url: /2006/08/snippy-urls.php}
   slug: obsolete
   url: /search/label/obsolete.html
 - name: osx
@@ -460,10 +462,16 @@
   - {title: Android Apps, url: /2013/12/android-apps.html}
   slug: phone
   url: /search/label/phone.html
+- name: photos
+  posts:
+  - {title: merging iPhoto and Photos albums into one big thing and deduping them,
+    url: 2017/10/25/merging-photos-libraries.html}
+  slug: photos
+  url: /search/label/photos.html
 - name: picasaweb
   posts:
-  - {title: Download Picasa Web Album, url: /2008/05/download-picasa-web-album.php}
   - {title: 'My last greasemonkey script: blog picasa images', url: /2009/11/my-last-greasemonkey-script-blog-picasa.php}
+  - {title: Download Picasa Web Album, url: /2008/05/download-picasa-web-album.php}
   - {title: linux screen capture to picasaweb, url: /2011/03/linux-screen-capture-to-picasaweb.html}
   slug: picasaweb
   url: /search/label/picasaweb.html
@@ -480,18 +488,18 @@
   url: /search/label/privacy.html
 - name: python
   posts:
-  - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   - {title: Snippy Urls in App Engine, url: /2010/04/snippy-urls-in-app-engine.html}
-  - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
-  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
-  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
+  - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   - {title: Closest Color in a list of json colors, url: /2017/07/closest-color.html}
+  - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
+  - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
+  - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
   slug: python
   url: /search/label/python.html
 - name: reader
   posts:
-  - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
   - {title: How to delete posts from Google Reader, url: /2012/01/how-to-delete-posts-from-google-reader.html}
+  - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
   slug: reader
   url: /search/label/reader.html
 - name: readline
@@ -501,16 +509,16 @@
   url: /search/label/readline.html
 - name: rss
   posts:
-  - {title: Public Google Bookmarks Feeds, url: /2007/07/public-google-bookmarks-feeds.php}
-  - {title: My Feed is Private KTHXBYE, url: /2007/08/my-feed-is-private-kthxbye.php}
-  - {title: feedFixer, url: /2008/04/feedfixer.php}
-  - {title: unwelcome user agents, url: /2008/04/unwelcome-user-agents.php}
   - {title: Jaiku, url: /2008/05/jaiku.php}
-  - {title: Moving to google code, url: /2008/06/moving-to-google-code.php}
   - {title: more private feeds, url: /2010/02/more-private-feeds.html}
   - {title: notes from moving to blogger custom domains, url: /2010/02/notes-from-moving-to-blogger-custom.html}
-  - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
+  - {title: Moving to google code, url: /2008/06/moving-to-google-code.php}
   - {title: How to delete posts from Google Reader, url: /2012/01/how-to-delete-posts-from-google-reader.html}
+  - {title: feedFixer, url: /2008/04/feedfixer.php}
+  - {title: Public Google Bookmarks Feeds, url: /2007/07/public-google-bookmarks-feeds.php}
+  - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
+  - {title: unwelcome user agents, url: /2008/04/unwelcome-user-agents.php}
+  - {title: My Feed is Private KTHXBYE, url: /2007/08/my-feed-is-private-kthxbye.php}
   slug: rss
   url: /search/label/rss.html
 - name: search
@@ -526,8 +534,8 @@
   url: /search/label/setup.html
 - name: shell
   posts:
-  - {title: Check the output of cronjobs every month, url: /2010/05/check-output-of-cronjobs-every-month.html}
   - {title: a bit a git, url: /2014/06/a-bit-git.html}
+  - {title: Check the output of cronjobs every month, url: /2010/05/check-output-of-cronjobs-every-month.html}
   slug: shell
   url: /search/label/shell.html
 - name: snippy
@@ -544,8 +552,8 @@
 - name: tip
   posts:
   - {title: pro-tip finding the right circuit breaker, url: /2011/03/pro-tip-finding-right-circuit-breaker.html}
-  - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
   - {title: a bit a git, url: /2014/06/a-bit-git.html}
+  - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
   slug: tip
   url: /search/label/tip.html
 - name: x11
