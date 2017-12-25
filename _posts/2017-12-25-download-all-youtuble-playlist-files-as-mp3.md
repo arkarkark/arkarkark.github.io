@@ -5,7 +5,7 @@ layout: post
 permalink: /2017/12/download-all-youtuble-playlist-files-as-mp3.html
 tags:
 - youtube
-title: Download all YouTube playlist files as m3
+title: Download all YouTube playlist files as mp3
 ---
 
 Here's how I downloaded all the songs from a youtube playlist as mp3 files.
@@ -18,7 +18,7 @@ First you need the playlist Id, it's in the URL of the playlist, then visit a ur
 Then cmd-a, cmd-c to copy the whole page.
 
 ```
-pbpaste |fgrep 'videoId":' | cut -c 18-28 | while read fil; do youtube-dl -x --audio-format mp3 https://youtu.be/$fil; done
+pbpaste | fgrep 'videoId":' | cut -d '"' -f 4 | while read fil; do youtube-dl -x --audio-format mp3 https://youtu.be/$fil; done
 ```
 
 bam! all files downloaded!
