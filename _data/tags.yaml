@@ -199,6 +199,11 @@
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   slug: fglrx
   url: /search/label/fglrx.html
+- name: fire
+  posts:
+  - {title: Track your money yearly, url: /2018/09/track-your-money-yearly}
+  slug: fire
+  url: /search/label/fire.html
 - name: firefox
   posts:
   - {title: preview feeds in google reader, url: /2007/11/preview-feeds-in-google-reader.php}
@@ -422,6 +427,11 @@
   - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   slug: markdown
   url: /search/label/markdown.html
+- name: money
+  posts:
+  - {title: Track your money yearly, url: /2018/09/track-your-money-yearly}
+  slug: money
+  url: /search/label/money.html
 - name: mp3
   posts:
   - {title: Car Audio, url: /2008/05/car-audio.php}
@@ -521,6 +531,11 @@
   - {title: My Feed is Private KTHXBYE, url: /2007/08/my-feed-is-private-kthxbye.php}
   slug: rss
   url: /search/label/rss.html
+- name: saving
+  posts:
+  - {title: Track your money yearly, url: /2018/09/track-your-money-yearly}
+  slug: saving
+  url: /search/label/saving.html
 - name: search
   posts:
   - {title: adding suggest passthrough to snippy, url: /2010/05/adding-suggest-passthrough-to-snippy.html}
@@ -556,6 +571,11 @@
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
   slug: tip
   url: /search/label/tip.html
+- name: tracking
+  posts:
+  - {title: Track your money yearly, url: /2018/09/track-your-money-yearly}
+  slug: tracking
+  url: /search/label/tracking.html
 - name: x11
   posts:
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
@@ -569,6 +589,6 @@
   url: /search/label/xp.html
 - name: youtube
   posts:
-  - {title: Download all YouTube playlist files as m3, url: /2017/12/download-all-youtuble-playlist-files-as-mp3.html}
+  - {title: Download all YouTube playlist files as mp3, url: /2017/12/download-all-youtuble-playlist-files-as-mp3.html}
   slug: youtube
   url: /search/label/youtube.html
