@@ -14,10 +14,10 @@ tags:
 This is the first in a series of Money Management posts I plan to make.
 
 I'm going to explain how I track my money and the spreadsheet I use to do it.
-I've prepared an [example money tracking spreadsheet](https://docs.google.com/spreadsheets/d/1dl0V9v8LMHQSDsIbMecp_BC7tyefTuwBziO-ZEyZwsk) for you to copy and fill out. I put in one year's worth of made up example data for you. Over many future posts I'll be extending this example document but for now this post is about the "Yearly" sheet.
+I've prepared an [example money tracking spreadsheet](https://docs.google.com/spreadsheets/d/1dl0V9v8LMHQSDsIbMecp_BC7tyefTuwBziO-ZEyZwsk) for you to copy and fill out. I put in one year's worth of made up example data for you. Over many future posts I'll be extending this example document but for now this post is about the "Yearly" worksheet.
 
 Here's what it look likes.
-![Yearly Spreadsheet Header](/assets/images/moneyYearlyHeader.png)
+![Yearly worksheet header](/assets/images/moneyYearlyHeader.png)
 
 ## TL;DR
 
@@ -25,7 +25,7 @@ Every year when you do your taxes fill out the row for that year with your incom
 
 Over the years this will become very useful data and allow you to see how far you've come over the years and help motivate you to save more and more.
 
-## Columns in the Yearly Spreadsheet.
+## Columns in the Yearly Worksheet.
 
 Here's all the columns and what to do with them.
 
@@ -66,7 +66,7 @@ Another post will be coming along about this one too. But if it's easy to work o
 
 These columns are for you to add life events into. Mostly events realted to your financial planning. Like when you can withdraw from your retirement plans, when you should collect social security, sign up for medicare etc.
 
-![Yearly Spreadsheet Notes](/assets/images/moneyYearlyNotes.png)
+![Yearly worksheet notes](/assets/images/moneyYearlyNotes.png)
 
 ###  Notes
 
@@ -76,7 +76,7 @@ I use this as a freeform column to add notes about the year. Mostly what were so
 
 Here's some quick notes on some of the Google Sheets tricks I used.
 
-`=$A3 + 1` is how I auto increment the year from one row to the next. $A$3 is the starting year, everything works off the previous row. I entered this forula in $A$4, hit enter, copied it and then selected the rest of the A cells and pasted in the value. Google sheets increments the row number for every row so you'll always be adding one to the previous row.
+`=$A3 + 1` is how I auto increment the year from one row to the next. $A$3 is the starting year, everything works off the previous row. I entered this forula in $A$4, hit enter, copied it and then selected the rest of the A cells and pasted in the value. Google Sheets increments the row number for every row so you'll always be adding one to the previous row.
 
 Using `$` is how you tell sheets not to auto increment that reference when you copy paste to another row or column.
 
@@ -84,6 +84,6 @@ Using `$` is how you tell sheets not to auto increment that reference when you c
 
 `=IFERROR((E5 + F5) / C5, "")` on the Effective Tax Rate column avoids showing an error if values are missing. This way the column only fills out if you have an AGI and Tax columns filled out.
 
-`=MOD(INT($A:$A / 10), 2) > 0` I use this with conditional formatting to get blocks of 10 years to alternate colors. This helps me gauge the passing of time without having to deal with border lines in the sheet.
+`=MOD(INT($A:$A / 10), 2) > 0` I use this with conditional formatting to get blocks of 10 years to alternate colors. This helps me gauge the passing of time without having to deal with border lines in the worksheet.
 
-`=sum(filter('Expenses Monthly'!B:D , YEAR('Expenses Monthly'!A:A) = $A14))` I don't use it in this example yet, but it's coming. This is how I sum up some numbers from a different sheet in the same Google Spreadsheet.
+`=IFERROR(SUM(FILTER('Expenses Monthly'!B:D , YEAR('Expenses Monthly'!A:A) = $A3)), "")` I don't use it in this example yet, but it's coming. This is how I sum up some numbers from a different worksheet in the same Google Spreadsheet.
