@@ -35,7 +35,7 @@ um, the year. Just change the first year and the rest will adjust automagically.
 
 ###  Expenses
 
-Don't worry about this for now, I'll be posting about that in a future post. This'll keep track of how much you actually spend during a given year.
+This gets copied over from the Monthly Expenses worksheet which I talk about in the [Monthly Expenses](/2018/09/track-your-expenses-monthly) post.
 
 ###  AGI
 
