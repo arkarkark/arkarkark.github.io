@@ -202,6 +202,7 @@
 - name: fire
   posts:
   - {title: Track your money yearly, url: /2018/09/track-your-money-yearly}
+  - {title: Track your expenses monthly, url: /2018/09/track-your-expenses-monthly}
   slug: fire
   url: /search/label/fire.html
 - name: firefox
@@ -430,6 +431,7 @@
 - name: money
   posts:
   - {title: Track your money yearly, url: /2018/09/track-your-money-yearly}
+  - {title: Track your expenses monthly, url: /2018/09/track-your-expenses-monthly}
   slug: money
   url: /search/label/money.html
 - name: mp3
@@ -534,6 +536,7 @@
 - name: saving
   posts:
   - {title: Track your money yearly, url: /2018/09/track-your-money-yearly}
+  - {title: Track your expenses monthly, url: /2018/09/track-your-expenses-monthly}
   slug: saving
   url: /search/label/saving.html
 - name: search
@@ -574,6 +577,7 @@
 - name: tracking
   posts:
   - {title: Track your money yearly, url: /2018/09/track-your-money-yearly}
+  - {title: Track your expenses monthly, url: /2018/09/track-your-expenses-monthly}
   slug: tracking
   url: /search/label/tracking.html
 - name: x11
