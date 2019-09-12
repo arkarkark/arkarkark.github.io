@@ -23,6 +23,7 @@
 - name: apple
   posts:
   - {title: Copy and paste between X11 and other apps on Mac, url: /2010/03/copy-and-paste-between-x11-and-other.html}
+  - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
   - {title: merging iPhoto and Photos albums into one big thing and deduping them,
     url: 2017/10/25/merging-photos-libraries.html}
   - {title: xauth on snow leopard x11 xquartz, url: /2010/06/xauth-on-snow-leopard-x11-xquartz.html}
@@ -51,6 +52,11 @@
   - {title: gmail-github-labels, url: /2014/12/gmail-github-labels.html}
   slug: apps script
   url: /search/label/apps script.html
+- name: appscript
+  posts:
+  - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
+  slug: appscript
+  url: /search/label/appscript.html
 - name: atom
   posts:
   - {title: more private feeds, url: /2010/02/more-private-feeds.html}
@@ -305,6 +311,11 @@
   - {title: App Engine https, url: /2016/11/appengine-https.html}
   slug: https
   url: /search/label/https.html
+- name: id3
+  posts:
+  - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
+  slug: id3
+  url: /search/label/id3.html
 - name: im
   posts:
   - {title: Jaiku, url: /2008/05/jaiku.php}
@@ -316,6 +327,11 @@
   - {title: Bike Wheel Lights, url: /2016/12/bike-wheel-lights.html}
   slug: imagemagick
   url: /search/label/imagemagick.html
+- name: imdb
+  posts:
+  - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
+  slug: imdb
+  url: /search/label/imdb.html
 - name: ios
   posts:
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
@@ -338,6 +354,7 @@
   url: /search/label/isp.html
 - name: itunes
   posts:
+  - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
   - {title: iTunes to MySQL, url: /2006/03/itunes-to-mysql_05.php}
   - {title: iPhone, url: /2008/08/iphone.php}
   slug: itunes
@@ -440,6 +457,11 @@
   - {title: iPhone, url: /2008/08/iphone.php}
   slug: mp3
   url: /search/label/mp3.html
+- name: mp4
+  posts:
+  - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
+  slug: mp4
+  url: /search/label/mp4.html
 - name: mysql
   posts:
   - {title: MySQL select optimization, url: /2006/04/mysql-select-optimization.php}
@@ -508,6 +530,11 @@
   - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
   slug: python
   url: /search/label/python.html
+- name: rating
+  posts:
+  - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
+  slug: rating
+  url: /search/label/rating.html
 - name: reader
   posts:
   - {title: How to delete posts from Google Reader, url: /2012/01/how-to-delete-posts-from-google-reader.html}
@@ -533,6 +560,11 @@
   - {title: My Feed is Private KTHXBYE, url: /2007/08/my-feed-is-private-kthxbye.php}
   slug: rss
   url: /search/label/rss.html
+- name: ruby
+  posts:
+  - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
+  slug: ruby
+  url: /search/label/ruby.html
 - name: saving
   posts:
   - {title: Track your money yearly, url: /2018/09/track-your-money-yearly}
