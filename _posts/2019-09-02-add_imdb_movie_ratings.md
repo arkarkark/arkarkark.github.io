@@ -21,6 +21,12 @@ I wanted to get the IMDb ratings into iTunes and I found [this gist](https://gis
 
 Here is the end result: [add_imdb_movie_ratings](https://gist.github.com/arkarkark/eef9bb9cfedbc6507a8255e543dd5d1e)
 
+<style type="text/css">
+  .gist-data {max-height: 500px;}
+</style>
+
+<script src="https://gist.github.com/arkarkark/eef9bb9cfedbc6507a8255e543dd5d1e.js"></script>
+
 Setup involves
 
 ```
