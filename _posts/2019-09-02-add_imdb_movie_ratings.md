@@ -60,3 +60,12 @@ rvm reinstall all --force
 ```
 
 Publishing as a [gist](https://gist.github.com) seemed ideal for a small script like this. `brew install gist` will allow you to update it from the command line. I almost added command line switches to do it automatically, but that seemed like overkill.
+
+BONUS: You can now run this script from the script menu in iTunes. just add the `run_add_imdb_movie_ratings.scpt` file into the `~/Library/iTunes/Scripts/` directory. You may have to fix the path in that file to point to your home directory or wherever you istalled add_imdb_movie_ratings.
+
+```
+tell application "Terminal"
+    activate
+    set currentTab to do script "/Users/ark/bin/share/add_imdb_movie_ratings; exit 0"
+end tell
+```
