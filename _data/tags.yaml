@@ -118,6 +118,7 @@
   - {title: getting google buzz on your desktop, url: /2010/02/getting-google-buzz-on-your-desktop.html}
   - {title: How to create direct links to Chrome Remote Desktop connections, url: /2014/07/how-to-create-direct-links-to-chrome.html}
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
+  - {title: Block Website Chrome Extension, url: /2019/09/block-website-chrome-extension.html}
   - {title: Authy Window Size, url: /2015/01/authy-window-size.html}
   slug: chrome
   url: /search/label/chrome.html
@@ -186,6 +187,7 @@
   url: /search/label/emacs.html
 - name: extension
   posts:
+  - {title: Block Website Chrome Extension, url: /2019/09/block-website-chrome-extension.html}
   - {title: Authy Window Size, url: /2015/01/authy-window-size.html}
   slug: extension
   url: /search/label/extension.html
@@ -370,6 +372,7 @@
   posts:
   - {title: 'CoffeeScript ?= and ||=', url: /2014/07/coffeescript-and.html}
   - {title: fixlinks, url: /2007/08/fixlinks.php}
+  - {title: Block Website Chrome Extension, url: /2019/09/block-website-chrome-extension.html}
   - {title: "Finding the cause of \u201CUnknown provider\u201D errors", url: /2014/08/finding-cause-of-unknown-provider-errors.html}
   slug: javascript
   url: /search/label/javascript.html
