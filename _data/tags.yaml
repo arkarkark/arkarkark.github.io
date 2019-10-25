@@ -185,6 +185,11 @@
   - {title: 'xterms, gnu screen and emacs and control cursor keys', url: /2008/10/xterms-gnu-screen-and-emacs-and-control.php}
   slug: emacs
   url: /search/label/emacs.html
+- name: esp8266
+  posts:
+  - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
+  slug: esp8266
+  url: /search/label/esp8266.html
 - name: extension
   posts:
   - {title: Block Website Chrome Extension, url: /2019/09/block-website-chrome-extension.html}
@@ -341,6 +346,11 @@
   - {title: Favorite iOS/iPhone Apps, url: /2014/06/ios-apps.html}
   slug: ios
   url: /search/label/ios.html
+- name: iot
+  posts:
+  - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
+  slug: iot
+  url: /search/label/iot.html
 - name: iphone
   posts:
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
@@ -440,6 +450,7 @@
   url: /search/label/mailman.html
 - name: make
   posts:
+  - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
   - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
   slug: make
   url: /search/label/make.html
