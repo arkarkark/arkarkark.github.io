@@ -187,6 +187,7 @@
   url: /search/label/emacs.html
 - name: esp8266
   posts:
+  - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
   - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
   slug: esp8266
   url: /search/label/esp8266.html
@@ -348,6 +349,7 @@
   url: /search/label/ios.html
 - name: iot
   posts:
+  - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
   - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
   slug: iot
   url: /search/label/iot.html
@@ -450,6 +452,7 @@
   url: /search/label/mailman.html
 - name: make
   posts:
+  - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
   - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
   - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
   slug: make

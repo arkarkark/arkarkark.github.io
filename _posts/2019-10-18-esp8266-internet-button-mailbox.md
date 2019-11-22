@@ -11,6 +11,8 @@ title: ESP8266 tinkering, internet button, mailbox alert
 ---
 Do you want to build an internet enabled button? Something that when you press it does something else, like send you an email, an alert, buys something on Amazon. Well then go read this [IFTTT Smart Button](https://www.hackster.io/noelportugal/ifttt-smart-button-e11841) article and have fun. What you're reading right now is a journal of discovery which ends up with an internet enabled button just like the one in that article, but there was way more blood, pain and suffering along the way.
 
+There is a newer version of this project, check out [version 2](/2019/11/mboxv2.html).
+
 ## Project: A mailbox alert
 
 My [locking mailbox](https://www.homedepot.com/p/_/300118175) is down a steep driveway and it's annoying to go down to it only to find the mail hasn't been delivered yet. Because of [Informed Delivery](https://informeddelivery.usps.com/) I even know if something important or interesting is coming. I've wanted to build some kind of way of alerting me when the mail's been delivered. Sure, I could have [bought something](https://www.google.com/search?tbm=shop&q=mailbox+alert), there's so many kooky and cool solutions out there from super low tech to fancy pants, but this seemed like an interesting project to play around with.
