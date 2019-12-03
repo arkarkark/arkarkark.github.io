@@ -1,3 +1,8 @@
+- name: WS2812
+  posts:
+  - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
+  slug: WS2812
+  url: /search/label/WS2812.html
 - name: android
   posts:
   - {title: Fixing a 2012 Nexus 7, url: /2017/05/nexus-7.html}
@@ -187,8 +192,10 @@
   url: /search/label/emacs.html
 - name: esp8266
   posts:
+  - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
   - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
   - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
+  - {title: ESP01 and ESP06/ESP12 flasher, url: /2019/12/flash.html}
   slug: esp8266
   url: /search/label/esp8266.html
 - name: extension
@@ -226,6 +233,11 @@
   - {title: snippy urls, url: /2006/08/snippy-urls.php}
   slug: firefox
   url: /search/label/firefox.html
+- name: flash
+  posts:
+  - {title: ESP01 and ESP06/ESP12 flasher, url: /2019/12/flash.html}
+  slug: flash
+  url: /search/label/flash.html
 - name: gafyd
   posts:
   - {title: How to transfer a domain away from godaddy, url: /2011/12/how-to-transfer-domain-away-from.html}
@@ -399,6 +411,11 @@
   - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   slug: labels
   url: /search/label/labels.html
+- name: leds
+  posts:
+  - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
+  slug: leds
+  url: /search/label/leds.html
 - name: lights
   posts:
   - {title: Bike Wheel Lights, url: /2016/12/bike-wheel-lights.html}
@@ -452,8 +469,10 @@
   url: /search/label/mailman.html
 - name: make
   posts:
+  - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
   - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
   - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
+  - {title: ESP01 and ESP06/ESP12 flasher, url: /2019/12/flash.html}
   - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
   slug: make
   url: /search/label/make.html
