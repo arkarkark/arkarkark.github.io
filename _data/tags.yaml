@@ -117,6 +117,7 @@
   - {title: my first google chrome extension, url: /2009/11/my-first-google-chrome-extension.php}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
+  - {title: The Acer Chromebook 11 C740 Peppy is the best Chromebook, url: /2019/12/chromebook.html}
   - {title: Chrome Web Store Data and Privacy Policy, url: /2016/08/data-policy.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
@@ -127,6 +128,16 @@
   - {title: Authy Window Size, url: /2015/01/authy-window-size.html}
   slug: chrome
   url: /search/label/chrome.html
+- name: chromebook
+  posts:
+  - {title: The Acer Chromebook 11 C740 Peppy is the best Chromebook, url: /2019/12/chromebook.html}
+  slug: chromebook
+  url: /search/label/chromebook.html
+- name: chromeos
+  posts:
+  - {title: The Acer Chromebook 11 C740 Peppy is the best Chromebook, url: /2019/12/chromebook.html}
+  slug: chromeos
+  url: /search/label/chromeos.html
 - name: coffeescript
   posts:
   - {title: 'CoffeeScript ?= and ||=', url: /2014/07/coffeescript-and.html}
@@ -411,6 +422,11 @@
   - {title: Migrating to github pages, url: /2014/12/migrating-to-github-pages.html}
   slug: labels
   url: /search/label/labels.html
+- name: laptop
+  posts:
+  - {title: The Acer Chromebook 11 C740 Peppy is the best Chromebook, url: /2019/12/chromebook.html}
+  slug: laptop
+  url: /search/label/laptop.html
 - name: leds
   posts:
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
