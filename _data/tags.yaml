@@ -3,6 +3,12 @@
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
   slug: WS2812
   url: /search/label/WS2812.html
+- name: airport
+  posts:
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
+  slug: airport
+  url: /search/label/airport.html
 - name: android
   posts:
   - {title: Fixing a 2012 Nexus 7, url: /2017/05/nexus-7.html}
@@ -28,6 +34,8 @@
 - name: apple
   posts:
   - {title: Copy and paste between X11 and other apps on Mac, url: /2010/03/copy-and-paste-between-x11-and-other.html}
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
   - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
   - {title: merging iPhoto and Photos albums into one big thing and deduping them,
     url: 2017/10/25/merging-photos-libraries.html}
@@ -82,6 +90,12 @@
   - {title: Bike Wheel Lights, url: /2016/12/bike-wheel-lights.html}
   slug: bike
   url: /search/label/bike.html
+- name: bittorrent
+  posts:
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
+  slug: bittorrent
+  url: /search/label/bittorrent.html
 - name: blogger
   posts:
   - {title: Jaiku, url: /2008/05/jaiku.php}
@@ -117,7 +131,8 @@
   - {title: my first google chrome extension, url: /2009/11/my-first-google-chrome-extension.php}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
   - {title: Favorite Chrome Extensions, url: /2014/07/favorite-chrome-extensions.html}
-  - {title: The Acer Chromebook 11 C740 Peppy is the best Chromebook, url: /2019/12/chromebook.html}
+  - {title: The Acer Chromebook 11 C740 Peppy is the still the best value Chromebook,
+    url: /2019/12/chromebook.html}
   - {title: Chrome Web Store Data and Privacy Policy, url: /2016/08/data-policy.html}
   - {title: Github Tweaks and CSON to JSON in Makefiles and Emacs, url: /2014/12/github-tweaks-and-cson-to-json-in.html}
   - {title: Make Google Reader Content Window Taller Greasemonkey Script, url: /2010/03/make-google-reader-content-window.html}
@@ -130,12 +145,14 @@
   url: /search/label/chrome.html
 - name: chromebook
   posts:
-  - {title: The Acer Chromebook 11 C740 Peppy is the best Chromebook, url: /2019/12/chromebook.html}
+  - {title: The Acer Chromebook 11 C740 Peppy is the still the best value Chromebook,
+    url: /2019/12/chromebook.html}
   slug: chromebook
   url: /search/label/chromebook.html
 - name: chromeos
   posts:
-  - {title: The Acer Chromebook 11 C740 Peppy is the best Chromebook, url: /2019/12/chromebook.html}
+  - {title: The Acer Chromebook 11 C740 Peppy is the still the best value Chromebook,
+    url: /2019/12/chromebook.html}
   slug: chromeos
   url: /search/label/chromeos.html
 - name: coffeescript
@@ -175,6 +192,12 @@
   - {title: Github Markdown Server, url: /2014/12/github-markdown-server.html}
   slug: development
   url: /search/label/development.html
+- name: disk
+  posts:
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
+  slug: disk
+  url: /search/label/disk.html
 - name: diy
   posts:
   - {title: pro-tip finding the right circuit breaker, url: /2011/03/pro-tip-finding-right-circuit-breaker.html}
@@ -385,6 +408,8 @@
   url: /search/label/iphone.html
 - name: isp
   posts:
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
   - {title: How to transfer a domain away from godaddy, url: /2011/12/how-to-transfer-domain-away-from.html}
   - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
   slug: isp
@@ -424,7 +449,8 @@
   url: /search/label/labels.html
 - name: laptop
   posts:
-  - {title: The Acer Chromebook 11 C740 Peppy is the best Chromebook, url: /2019/12/chromebook.html}
+  - {title: The Acer Chromebook 11 C740 Peppy is the still the best value Chromebook,
+    url: /2019/12/chromebook.html}
   slug: laptop
   url: /search/label/laptop.html
 - name: leds
@@ -554,6 +580,12 @@
     url: 2017/10/25/merging-photos-libraries.html}
   slug: photos
   url: /search/label/photos.html
+- name: pi
+  posts:
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
+  slug: pi
+  url: /search/label/pi.html
 - name: picasaweb
   posts:
   - {title: 'My last greasemonkey script: blog picasa images', url: /2009/11/my-last-greasemonkey-script-blog-picasa.php}
@@ -561,6 +593,12 @@
   - {title: linux screen capture to picasaweb, url: /2011/03/linux-screen-capture-to-picasaweb.html}
   slug: picasaweb
   url: /search/label/picasaweb.html
+- name: pizero
+  posts:
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
+  slug: pizero
+  url: /search/label/pizero.html
 - name: power
   posts:
   - {title: 'The ultimate computer power cord?', url: /2011/03/ultimate-computer-power-cord.html}
@@ -623,6 +661,12 @@
   - {title: Track your expenses monthly, url: /2018/09/track-your-expenses-monthly}
   slug: saving
   url: /search/label/saving.html
+- name: screen
+  posts:
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
+  slug: screen
+  url: /search/label/screen.html
 - name: search
   posts:
   - {title: adding suggest passthrough to snippy, url: /2010/05/adding-suggest-passthrough-to-snippy.html}
@@ -664,6 +708,18 @@
   - {title: Track your expenses monthly, url: /2018/09/track-your-expenses-monthly}
   slug: tracking
   url: /search/label/tracking.html
+- name: vpn
+  posts:
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
+  slug: vpn
+  url: /search/label/vpn.html
+- name: wifi
+  posts:
+  - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
+      disk, url: /2019/12/pi-bt.html}
+  slug: wifi
+  url: /search/label/wifi.html
 - name: x11
   posts:
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
