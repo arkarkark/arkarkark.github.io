@@ -1,6 +1,7 @@
 - name: WS2812
   posts:
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
+  - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
   slug: WS2812
   url: /search/label/WS2812.html
 - name: airport
@@ -227,6 +228,7 @@
 - name: esp8266
   posts:
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
+  - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
   - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
   - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
   - {title: ESP01 and ESP06/ESP12 flasher, url: /2019/12/flash.html}
@@ -453,6 +455,11 @@
     url: /2019/12/chromebook.html}
   slug: laptop
   url: /search/label/laptop.html
+- name: led
+  posts:
+  - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
+  slug: led
+  url: /search/label/led.html
 - name: leds
   posts:
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
@@ -725,6 +732,11 @@
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
   slug: x11
   url: /search/label/x11.html
+- name: xmas
+  posts:
+  - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
+  slug: xmas
+  url: /search/label/xmas.html
 - name: xp
   posts:
   - {title: 'How to not have Log Off in the start menu AND have a nice shutdown dialog?
