@@ -457,14 +457,10 @@
   url: /search/label/laptop.html
 - name: led
   posts:
+  - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
   - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
   slug: led
   url: /search/label/led.html
-- name: leds
-  posts:
-  - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
-  slug: leds
-  url: /search/label/leds.html
 - name: lights
   posts:
   - {title: Bike Wheel Lights, url: /2016/12/bike-wheel-lights.html}
