@@ -54,6 +54,11 @@
   - {title: control-right next-word in python interpreter and readline on a mac, url: /2010/05/control-right-next-word-in-python.html}
   slug: apple
   url: /search/label/apple.html
+- name: applescript
+  posts:
+  - {title: iTunes Library Organization and Cleanup, url: /2020/03/itunes.html}
+  slug: applescript
+  url: /search/label/applescript.html
 - name: apps
   posts:
   - {title: New Year back to iPhone, url: /2015/01/new-year-back-to-iphone.html}
@@ -416,8 +421,14 @@
   - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
   slug: isp
   url: /search/label/isp.html
+- name: itdb
+  posts:
+  - {title: iTunes Library Organization and Cleanup, url: /2020/03/itunes.html}
+  slug: itdb
+  url: /search/label/itdb.html
 - name: itunes
   posts:
+  - {title: iTunes Library Organization and Cleanup, url: /2020/03/itunes.html}
   - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
   - {title: iTunes to MySQL, url: /2006/03/itunes-to-mysql_05.php}
   - {title: iPhone, url: /2008/08/iphone.php}
@@ -545,6 +556,7 @@
   url: /search/label/mp4.html
 - name: mysql
   posts:
+  - {title: iTunes Library Organization and Cleanup, url: /2020/03/itunes.html}
   - {title: MySQL select optimization, url: /2006/04/mysql-select-optimization.php}
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   - {title: iTunes to MySQL, url: /2006/03/itunes-to-mysql_05.php}
@@ -616,6 +628,7 @@
 - name: python
   posts:
   - {title: Snippy Urls in App Engine, url: /2010/04/snippy-urls-in-app-engine.html}
+  - {title: iTunes Library Organization and Cleanup, url: /2020/03/itunes.html}
   - {title: mythtv and mythvideo, url: /2009/12/mythtv-and-mythvideo.php}
   - {title: Closest Color in a list of json colors, url: /2017/07/closest-color.html}
   - {title: AppEngine OAuth contrib and refresh_token, url: /2016/12/oauth.html}
