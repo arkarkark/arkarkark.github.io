@@ -162,6 +162,11 @@
     url: /2019/12/chromebook.html}
   slug: chromeos
   url: /search/label/chromeos.html
+- name: co2
+  posts:
+  - {title: Portable Fizzy Water, url: /2020/08/portafizz.html}
+  slug: co2
+  url: /search/label/co2.html
 - name: coffeescript
   posts:
   - {title: 'CoffeeScript ?= and ||=', url: /2014/07/coffeescript-and.html}

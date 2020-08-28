@@ -21,3 +21,5 @@ I turn off my co2 at the tank when I'm not using it. that's why I need to adjust
 I end up making around 40 liters of fizzy water a month and that 20lb/$30 co2 tank lasted almost 2 years.
 
 If you want always on fizzy water at home, there are a few systems out there, none of them looked very good to me and I love the ice cold water out of Grolsh bottles I'm currently making. You could get a [soda keg](https://smile.amazon.com/NEW-Gallon-Ball-Lock-Connections/dp/B0088PJBOA) and hook that up to make your water in 5 gallon batches. I actually have one I'm looking after for someone but have never bothered to set it up.
+
+NEW: for a portable solution check out my [porta fizz](/2020/08/portafizz.html)
