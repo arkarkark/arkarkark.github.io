@@ -648,6 +648,16 @@
   - {title: Add IMDb Movie Ratings to iTunes, url: /2019/09/add_imdb_movie_ratings.html}
   slug: rating
   url: /search/label/rating.html
+- name: rc
+  posts:
+  - {title: RC Plane, url: /2020/08/rcplane.html}
+  slug: rc
+  url: /search/label/rc.html
+- name: rcplane
+  posts:
+  - {title: RC Plane, url: /2020/08/rcplane.html}
+  slug: rcplane
+  url: /search/label/rcplane.html
 - name: reader
   posts:
   - {title: How to delete posts from Google Reader, url: /2012/01/how-to-delete-posts-from-google-reader.html}
