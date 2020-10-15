@@ -285,11 +285,29 @@
   - {title: ESP01 and ESP06/ESP12 flasher, url: /2019/12/flash.html}
   slug: flash
   url: /search/label/flash.html
+- name: flysky
+  posts:
+  - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
+      storch', url: /2020/10/rcplane-bench-flysky-storch.html}
+  slug: flysky
+  url: /search/label/flysky.html
+- name: foamboard
+  posts:
+  - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
+      storch', url: /2020/10/rcplane-bench-flysky-storch.html}
+  slug: foamboard
+  url: /search/label/foamboard.html
 - name: gafyd
   posts:
   - {title: How to transfer a domain away from godaddy, url: /2011/12/how-to-transfer-domain-away-from.html}
   slug: gafyd
   url: /search/label/gafyd.html
+- name: garage
+  posts:
+  - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
+      storch', url: /2020/10/rcplane-bench-flysky-storch.html}
+  slug: garage
+  url: /search/label/garage.html
 - name: git
   posts:
   - {title: a bit a git, url: /2014/06/a-bit-git.html}
@@ -651,11 +669,15 @@
 - name: rc
   posts:
   - {title: RC Plane, url: /2020/08/rcplane.html}
+  - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
+      storch', url: /2020/10/rcplane-bench-flysky-storch.html}
   slug: rc
   url: /search/label/rc.html
 - name: rcplane
   posts:
   - {title: RC Plane, url: /2020/08/rcplane.html}
+  - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
+      storch', url: /2020/10/rcplane-bench-flysky-storch.html}
   slug: rcplane
   url: /search/label/rcplane.html
 - name: reader
