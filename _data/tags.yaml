@@ -295,8 +295,14 @@
   posts:
   - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
       storch', url: /2020/10/rcplane-bench-flysky-storch.html}
+  - {title: Versa wing and FPV, url: /2020/10/versa.html}
   slug: foamboard
   url: /search/label/foamboard.html
+- name: fpv
+  posts:
+  - {title: Versa wing and FPV, url: /2020/10/versa.html}
+  slug: fpv
+  url: /search/label/fpv.html
 - name: gafyd
   posts:
   - {title: How to transfer a domain away from godaddy, url: /2011/12/how-to-transfer-domain-away-from.html}
@@ -671,6 +677,7 @@
   - {title: RC Plane, url: /2020/08/rcplane.html}
   - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
       storch', url: /2020/10/rcplane-bench-flysky-storch.html}
+  - {title: Versa wing and FPV, url: /2020/10/versa.html}
   slug: rc
   url: /search/label/rc.html
 - name: rcplane
@@ -678,6 +685,7 @@
   - {title: RC Plane, url: /2020/08/rcplane.html}
   - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
       storch', url: /2020/10/rcplane-bench-flysky-storch.html}
+  - {title: Versa wing and FPV, url: /2020/10/versa.html}
   slug: rcplane
   url: /search/label/rcplane.html
 - name: reader

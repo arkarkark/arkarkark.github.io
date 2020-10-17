@@ -1,6 +1,6 @@
 ```
-DIR=${PWD/*assets/assets}; for fil in *.jpg; do echo "[![](/$DIR/${fil/.jpg/.sml.jpg})](/$DIR/$fil)"; done
-for fil in *.jpg*; do  magick $fil -resize 400 ${fil/./.sml.}; done
+DIR=${PWD/*assets/assets}; (for fil in *.jp?(?)g; do echo "[![](/$DIR/${fil/.jp?(?)g/.sml.jpg})](/$DIR/$fil)"; done) | pbcopy | pbpaste
+for fil in *.jp?(?)g; do  magick $fil -resize 400 ${fil/.jp?(?)g/.sml.jpg}; done
 ```
 
 you might also want
