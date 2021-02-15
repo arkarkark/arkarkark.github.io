@@ -686,6 +686,7 @@
   - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
       storch', url: /2020/10/rcplane-bench-flysky-storch.html}
   - {title: Versa wing and FPV, url: /2020/10/versa.html}
+  - {title: Sticky McStickFace my first Simple Stick, url: /2020/11/sticky.html}
   slug: rcplane
   url: /search/label/rcplane.html
 - name: reader
@@ -748,6 +749,11 @@
   - {title: Check the output of cronjobs every month, url: /2010/05/check-output-of-cronjobs-every-month.html}
   slug: shell
   url: /search/label/shell.html
+- name: simplestick
+  posts:
+  - {title: Sticky McStickFace my first Simple Stick, url: /2020/11/sticky.html}
+  slug: simplestick
+  url: /search/label/simplestick.html
 - name: snippy
   posts:
   - {title: adding suggest passthrough to snippy, url: /2010/05/adding-suggest-passthrough-to-snippy.html}
