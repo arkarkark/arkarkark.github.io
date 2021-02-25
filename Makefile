@@ -4,4 +4,4 @@ tags:
 	./bin/fix_posts.py --tags
 
 images:
-	exiftool -all= assets/images/*.{png,jpg} assets/images/*/*.{png,jpg}
+	exiftool -all= assets/images/*.{png,jpg,jpeg} assets/images/*/*.{png,jpg,jpeg}
