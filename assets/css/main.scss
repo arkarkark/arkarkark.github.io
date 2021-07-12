@@ -20,3 +20,21 @@ $lnk-highlight-color: #333;
 img[alt*=right] {
   float: right;
 }
+
+.posts table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  th {
+      border: 1px solid black;
+      padding: 3px;
+  }
+
+  tr:nth-child(even) {
+    background: #CCC;
+  }
+
+  td {
+    padding: 3px;
+    border-right: 1px solid black;
+  }
+}
