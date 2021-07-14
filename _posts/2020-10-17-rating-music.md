@@ -1,6 +1,6 @@
 ---
 comments: false
-date: 2020-10-17
+date: 2021-06-17
 layout: post
 permalink: /2020/10/rating-music.html
 tags:
