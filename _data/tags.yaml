@@ -133,6 +133,11 @@
   - {title: Google Buzz Icon, url: /2010/02/google-buzz-icon.html}
   slug: buzz
   url: /search/label/buzz.html
+- name: cards
+  posts:
+  - {title: Christmas Cards, url: /2020/12/xmascards.html}
+  slug: cards
+  url: /search/label/cards.html
 - name: chrome
   posts:
   - {title: my first google chrome extension, url: /2009/11/my-first-google-chrome-extension.php}
