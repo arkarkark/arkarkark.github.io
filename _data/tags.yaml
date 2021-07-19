@@ -246,6 +246,7 @@
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
   - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
   - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
+  - {title: 20 Minute Switch, url: /2021/02/20minswitch.html}
   - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
   - {title: ESP01 and ESP06/ESP12 flasher, url: /2019/12/flash.html}
   slug: esp8266
@@ -563,6 +564,7 @@
   posts:
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
   - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
+  - {title: 20 Minute Switch, url: /2021/02/20minswitch.html}
   - {title: 'ESP8266 tinkering, internet button, mailbox alert', url: /2019/10/esp8266-internet-button-mailbox.html}
   - {title: ESP01 and ESP06/ESP12 flasher, url: /2019/12/flash.html}
   - {title: Internet slightly interruptible power supply, url: /2010/07/internet-slightly-interruptible-power.html}
