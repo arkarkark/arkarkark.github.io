@@ -682,6 +682,7 @@
   url: /search/label/rating.html
 - name: rc
   posts:
+  - {title: Flite Test Soarer, url: /2020/02/soarer.html}
   - {title: RC Plane, url: /2020/08/rcplane.html}
   - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
       storch', url: /2020/10/rcplane-bench-flysky-storch.html}
@@ -690,6 +691,7 @@
   url: /search/label/rc.html
 - name: rcplane
   posts:
+  - {title: Flite Test Soarer, url: /2020/02/soarer.html}
   - {title: RC Plane, url: /2020/08/rcplane.html}
   - {title: The Purple Pusher Twin Boom Simple Stick, url: /2021/02/purple-pusher.html}
   - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
