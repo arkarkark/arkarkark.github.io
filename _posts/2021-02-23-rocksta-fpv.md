@@ -43,4 +43,6 @@ Hopefully you can see the [hood cam](https://youtu.be/FZCPv5LuRiA) and [tilted v
 
 It says the protocol used by the transmitter is AFHDS 2A which is the same as the Flysky transmitter I used with my planes. I was really hoping I could use that rather than the trigger/wheel controller it came with but I was unable to bind the two.
 
+I've since learned that the best battery to fill the whole compartment and get the most drive time is a [Tattu 450 75C 2S](https://www.genstattu.com/tattu-450mah-7-4v-75c-2s1p-lipo-battery-pack-with-jst-syp-plug.html)
+
 The Z-Bend pliers are great by the way, well worth it.
