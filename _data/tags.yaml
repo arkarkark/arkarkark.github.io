@@ -184,6 +184,11 @@
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
   slug: copypaste
   url: /search/label/copypaste.html
+- name: crawler
+  posts:
+  - {title: Rocksta Crawler FPV, url: /2021/02/rocksta.html}
+  slug: crawler
+  url: /search/label/crawler.html
 - name: cron
   posts:
   - {title: Check the output of cronjobs every month, url: /2010/05/check-output-of-cronjobs-every-month.html}
@@ -306,6 +311,7 @@
   url: /search/label/foamboard.html
 - name: fpv
   posts:
+  - {title: Rocksta Crawler FPV, url: /2021/02/rocksta.html}
   - {title: Versa wing and FPV, url: /2020/10/versa.html}
   slug: fpv
   url: /search/label/fpv.html
@@ -509,6 +515,11 @@
   - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
   slug: led
   url: /search/label/led.html
+- name: lego
+  posts:
+  - {title: Rocksta Crawler FPV, url: /2021/02/rocksta.html}
+  slug: lego
+  url: /search/label/lego.html
 - name: lights
   posts:
   - {title: Bike Wheel Lights, url: /2016/12/bike-wheel-lights.html}
@@ -562,6 +573,7 @@
   url: /search/label/mailman.html
 - name: make
   posts:
+  - {title: Rocksta Crawler FPV, url: /2021/02/rocksta.html}
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
   - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
   - {title: 20 Minute Switch, url: /2021/02/20minswitch.html}
@@ -683,6 +695,7 @@
 - name: rc
   posts:
   - {title: Flite Test Soarer, url: /2020/02/soarer.html}
+  - {title: Rocksta Crawler FPV, url: /2021/02/rocksta.html}
   - {title: RC Plane, url: /2020/08/rcplane.html}
   - {title: 'RC Plane workbench, usb power input, crashes, wireless buddy box, foamboard
       storch', url: /2020/10/rcplane-bench-flysky-storch.html}
