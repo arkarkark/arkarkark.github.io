@@ -1,9 +1,3 @@
-- name: WS2812
-  posts:
-  - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
-  - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
-  slug: WS2812
-  url: /search/label/WS2812.html
 - name: airport
   posts:
   - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
@@ -249,6 +243,7 @@
 - name: esp8266
   posts:
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
+  - {title: Webcam Light Ring, url: /2021/02/webcam-light-ring.html}
   - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
   - {title: mailbox alert v2, url: /2019/11/mboxv2.html}
   - {title: 20 Minute Switch, url: /2021/02/20minswitch.html}
@@ -311,6 +306,7 @@
   url: /search/label/foamboard.html
 - name: fpv
   posts:
+  - {title: Puple Pusher FPV, url: /2021/02/pusherfpv.html}
   - {title: Rocksta Crawler FPV, url: /2021/02/rocksta.html}
   - {title: Versa wing and FPV, url: /2020/10/versa.html}
   slug: fpv
@@ -512,6 +508,7 @@
 - name: led
   posts:
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
+  - {title: Webcam Light Ring, url: /2021/02/webcam-light-ring.html}
   - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
   slug: led
   url: /search/label/led.html
@@ -810,12 +807,24 @@
       disk, url: /2019/12/pi-bt.html}
   slug: vpn
   url: /search/label/vpn.html
+- name: webcam
+  posts:
+  - {title: Webcam Light Ring, url: /2021/02/webcam-light-ring.html}
+  slug: webcam
+  url: /search/label/webcam.html
 - name: wifi
   posts:
   - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
       disk, url: /2019/12/pi-bt.html}
   slug: wifi
   url: /search/label/wifi.html
+- name: ws2812
+  posts:
+  - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
+  - {title: Webcam Light Ring, url: /2021/02/webcam-light-ring.html}
+  - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
+  slug: ws2812
+  url: /search/label/ws2812.html
 - name: x11
   posts:
   - {title: copy paste in X11 Xquartz on a mac, url: /2013/12/copy-paste-in-x11-xquartz-on-mac.html}
