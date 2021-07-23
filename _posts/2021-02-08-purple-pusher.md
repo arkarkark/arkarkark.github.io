@@ -85,6 +85,4 @@ Final Weights (everything but a battery):
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KC---gZ73AU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-After the maiden flight I found I had trouble pulling up. I traced this down to my elevator being controlled from a control rod underneath. so when trying to climb the thin wire was pushing the elevator up. I moved the wire to the top of the boom so now it would need to pull to makethe elevator go up and it was much better after that.
-
 In the end I didn't like the wheels. Thet looked silly in the air and make it even more sliugish. I didn't love how it flew (and certainly didn't love how it looked) but at least it flew. A good first plane that I feel like I designed.
