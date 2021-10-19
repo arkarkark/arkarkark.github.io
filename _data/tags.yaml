@@ -1,3 +1,8 @@
+- name: aa
+  posts:
+  - {title: The Best Headlamp ever, url: /2021/10/headlamp.html}
+  slug: aa
+  url: /search/label/aa.html
 - name: airport
   posts:
   - {title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
@@ -183,6 +188,11 @@
   - {title: Rocksta Crawler FPV, url: /2021/02/rocksta.html}
   slug: crawler
   url: /search/label/crawler.html
+- name: cree
+  posts:
+  - {title: The Best Headlamp ever, url: /2021/10/headlamp.html}
+  slug: cree
+  url: /search/label/cree.html
 - name: cron
   posts:
   - {title: Check the output of cronjobs every month, url: /2010/05/check-output-of-cronjobs-every-month.html}
@@ -383,6 +393,11 @@
   - {title: I have a Ham radio blog, url: /2009/06/i-have-ham-radio-blog.php}
   slug: ham
   url: /search/label/ham.html
+- name: headlamp
+  posts:
+  - {title: The Best Headlamp ever, url: /2021/10/headlamp.html}
+  slug: headlamp
+  url: /search/label/headlamp.html
 - name: home
   posts:
   - {title: Fizzy Water, url: /2017/06/fizzy-water.html}
@@ -510,6 +525,7 @@
   - {title: ws2812 leds and an esp8266, url: /2019/11/leds.html}
   - {title: Webcam Light Ring, url: /2021/02/webcam-light-ring.html}
   - {title: WS2812 Christmas Tree, url: /2019/12/xmas.html}
+  - {title: The Best Headlamp ever, url: /2021/10/headlamp.html}
   slug: led
   url: /search/label/led.html
 - name: lego
