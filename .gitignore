@@ -3,3 +3,5 @@ _site
 _posts/drafts
 *_original
 _drafts
+bin
+.bundle
