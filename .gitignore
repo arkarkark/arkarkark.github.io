@@ -5,3 +5,6 @@ _posts/drafts
 _drafts
 bin
 .bundle
+.DS_Store
+.bundle
+bin
