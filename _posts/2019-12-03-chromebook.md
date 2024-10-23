@@ -22,3 +22,5 @@ If you're going to get one, make sure you get the 4GB model
 When it arrives, go to [chrome://system/](chrome://system/) and make sure `meminfo` says `3,976,576 kB` I got one that was sold as 4GB, but meminfo revealed it was really a 2GB model. That extra memory is critical for good performance.
 
 Sure it's going to [EOL](https://support.google.com/chrome/a/answer/6220366) in June 2021 and stop getting chrome updates, but for now it can't be beat. The [C740 developer notes](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook) are interesting too.
+
+UPDATE 2024-10: I'm running ubuntu now, [spread over two disks](/2024/10/chromebook-ubuntu-usr.html) and setup [like this](/2024/10/chromebook-ubuntu.html).
