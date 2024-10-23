@@ -6,3 +6,7 @@ tags:
 SHELL:=$${SHELL} -O globstar
 images:
 	exiftool -all= assets/images/**/*.{png,jpg,jpeg}
+
+dev:
+	bundle install
+	bundle exec jekyll serve
