@@ -24,7 +24,9 @@ libgconf-2-4 was missing so I added `deb http://cz.archive.ubuntu.com/ubuntu lun
 
 download and install
 
- * `sudo apt install emacs git python3-setuptools fuse`
+ * `sudo apt install emacs git python3-setuptools fuse make fonts-inconsolata`
+ * `sudo apt purge gdm3; sudo apt autoremove; sudo apt install gdm3`
+ * `echo "options snd_hda_intel power_save=0" | sudo tee -a /etc/modprobe.d/audio_disable_powersave.conf` (fix [crackling sound](https://askubuntu.com/questions/1230833/annoying-click-popping-sound-on-ubuntu-20-04))
  * [Google Chrome](https://google.com/chrome)
  * [ELRS Configurator](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases)
  * [EdgeTX Companion](https://github.com/EdgeTX/edgetx/releases/)
