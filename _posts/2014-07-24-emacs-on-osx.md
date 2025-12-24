@@ -20,7 +20,7 @@ It was as easy as:
 ```bash
 brew uninstall emacs
 rm -rf ~/Library/Caches/Homebrew/emacs*
-brew cask install emacs
+brew install --cask emacs
 ```
 
 I removed the Caches directory because if I didn't I kept getting `RPC failed; result=52, HTTP code = 0` errors.

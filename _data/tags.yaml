@@ -128,6 +128,12 @@
     url: /2009/04/control-w-deleting-word-in-bash.php
   slug: bash
   url: /search/label/bash.html
+- name: betaflight
+  posts:
+  - title: Setting up my chromebook as a flight computer
+    url: /2024/10/chromebook-ubuntu.html
+  slug: betaflight
+  url: /search/label/betaflight.html
 - name: bike
   posts:
   - title: Bike Wheel Lights
@@ -165,6 +171,12 @@
     url: /2008/05/shutup-jaiku.php
   slug: blogger
   url: /search/label/blogger.html
+- name: bluetooth
+  posts:
+  - title: Kobo Libra Color
+    url: /2024/12/kobo.html
+  slug: bluetooth
+  url: /search/label/bluetooth.html
 - name: bookmarks
   posts:
   - title: Public Google Bookmarks Feeds
@@ -219,10 +231,20 @@
     url: /2015/01/authy-window-size.html
   slug: chrome
   url: /search/label/chrome.html
+- name: chrome extension
+  posts:
+  - title: Kobo Libra Color
+    url: /2024/12/kobo.html
+  slug: chrome extension
+  url: /search/label/chrome extension.html
 - name: chromebook
   posts:
+  - title: Setting up my chromebook as a flight computer
+    url: /2024/10/chromebook-ubuntu.html
   - title: The Acer Chromebook 11 C740 Peppy is the still the best value Chromebook
     url: /2019/12/chromebook.html
+  - title: Moving /usr to a different disk with unbuntu on a chromebook
+    url: /2024/10/chromebook-ubuntu-usr.html
   slug: chromebook
   url: /search/label/chromebook.html
 - name: chromeos
@@ -328,6 +350,24 @@
     url: /2011/12/how-to-transfer-domain-away-from.html
   slug: domain
   url: /search/label/domain.html
+- name: dropbox
+  posts:
+  - title: Kobo Libra Color
+    url: /2024/12/kobo.html
+  slug: dropbox
+  url: /search/label/dropbox.html
+- name: edgetx
+  posts:
+  - title: Setting up my chromebook as a flight computer
+    url: /2024/10/chromebook-ubuntu.html
+  slug: edgetx
+  url: /search/label/edgetx.html
+- name: elrs
+  posts:
+  - title: Setting up my chromebook as a flight computer
+    url: /2024/10/chromebook-ubuntu.html
+  slug: elrs
+  url: /search/label/elrs.html
 - name: emacs
   posts:
   - title: copy paste in X11 Xquartz on a mac
@@ -615,6 +655,12 @@
     url: /2019/09/add_imdb_movie_ratings.html
   slug: imdb
   url: /search/label/imdb.html
+- name: inav
+  posts:
+  - title: Setting up my chromebook as a flight computer
+    url: /2024/10/chromebook-ubuntu.html
+  slug: inav
+  url: /search/label/inav.html
 - name: ios
   posts:
   - title: New Year back to iPhone
@@ -702,6 +748,24 @@
     url: /2014/12/migrating-to-github-pages.html
   slug: jekyll
   url: /search/label/jekyll.html
+- name: kepub
+  posts:
+  - title: Kobo Libra Color
+    url: /2024/12/kobo.html
+  slug: kepub
+  url: /search/label/kepub.html
+- name: kobo
+  posts:
+  - title: Kobo Libra Color
+    url: /2024/12/kobo.html
+  slug: kobo
+  url: /search/label/kobo.html
+- name: koreader
+  posts:
+  - title: Kobo Libra Color
+    url: /2024/12/kobo.html
+  slug: koreader
+  url: /search/label/koreader.html
 - name: labels
   posts:
   - title: gmail-github-labels
@@ -930,6 +994,12 @@
     url: /2019/12/pi-bt.html
   slug: pizero
   url: /search/label/pizero.html
+- name: pocket
+  posts:
+  - title: Kobo Libra Color
+    url: /2024/12/kobo.html
+  slug: pocket
+  url: /search/label/pocket.html
 - name: power
   posts:
   - title: The ultimate computer power cord?
@@ -964,6 +1034,12 @@
     url: /2010/05/control-right-next-word-in-python.html
   slug: python
   url: /search/label/python.html
+- name: qr
+  posts:
+  - title: QR codes for wifi and contacts
+    url: /2023/09/qr.html
+  slug: qr
+  url: /search/label/qr.html
 - name: rating
   posts:
   - title: Add IMDb Movie Ratings to iTunes
@@ -972,6 +1048,8 @@
   url: /search/label/rating.html
 - name: rc
   posts:
+  - title: Setting up my chromebook as a flight computer
+    url: /2024/10/chromebook-ubuntu.html
   - title: Flite Test Soarer
     url: /2020/02/soarer.html
   - title: Rocksta Crawler FPV
@@ -1131,6 +1209,14 @@
     url: /2018/09/track-your-expenses-monthly
   slug: tracking
   url: /search/label/tracking.html
+- name: ubuntu
+  posts:
+  - title: Setting up my chromebook as a flight computer
+    url: /2024/10/chromebook-ubuntu.html
+  - title: Moving /usr to a different disk with unbuntu on a chromebook
+    url: /2024/10/chromebook-ubuntu-usr.html
+  slug: ubuntu
+  url: /search/label/ubuntu.html
 - name: vpn
   posts:
   - title: Bittorrent running on a Pi Zero connected to an Airport Extreme mounted
